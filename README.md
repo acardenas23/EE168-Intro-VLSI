@@ -1,2 +1,2 @@
 # EE168-Intro-VLSI
-This repository contains the labs I completed in my Intro To VLSI course at UC Riverside. I contains the IC layouts I drew using Synopsis Custom Design Tools. The purpose of including the link to this repository is so that my future employer can see what my experience with designing IC layouts is. 
+This repository contains the labs I completed in my Intro To VLSI course at UC Riverside. I contains the IC layouts I drew using Synopsis Custom Design Tools. The purpose of including the link to this repository is so that my future employer can gain a better understanding of what my previous experience with designing IC layouts has consisted of. I included my lab reports which contain links to my lab demoes which show my work more clearly.
