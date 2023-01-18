@@ -1,0 +1,216 @@
+[19:02:45.63] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Thu Jan 20 19:02:38 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[19:02:46.95] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:02:46.95] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:02:46.95] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:02:46.95] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:02:54.75] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[19:02:54.75] /i dm::showLibraryManager
+[19:02:54.76] /r giWindowId 1
+[19:02:54.77] /r giWindowGeometry 660x600+50+50
+[19:02:55.10] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:02:55.11] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:02:55.11] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:02:55.11] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:02:55.11] /o oa:0x236a5e10
+[19:02:57.40] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 1]
+[19:02:57.45] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[19:02:59.54] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 1]
+[19:02:59.59] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 1]
+[19:03:09.89] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[19:03:09.97] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[19:03:10.04] /o 	############################################
+[19:03:10.04] /o 	--------------------------------------------
+[19:03:10.04] /o 	PDK Name................... : SAED_PDK_90
+[19:03:10.04] /o 	PDK Release Date........... : 29-Sep-2015
+[19:03:10.04] /o 	PDK Custom Designer Version : J-2014.12-2
+[19:03:10.04] /o 	--------------------------------------------
+[19:03:10.04] /o 	############################################
+[19:03:10.04] /o 
+[19:03:10.04] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[19:03:10.05] /o SAED PDK 90: Loaded callbacks
+[19:03:10.05] /o SAED PDK 90: Loaded display resources
+[19:03:10.12] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:03:10.18] /r giWindowId 2
+[19:03:10.18] /r giWindowGeometry 963x488
+[19:03:26.41] /# gi::executeAction seCreateShape -in [gi::getWindows 2]
+[19:03:26.41] /i ise::createShape
+[19:03:52.97] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 2]
+[19:03:52.97] /i ise::check
+[19:03:53.02] /m Information: 
+[19:03:53.02] /o Checking "mylibrary/inverter/schematic"
+[19:03:53.03] /o No rule violations found in "mylibrary/inverter/schematic"
+[19:03:53.03] /m Information: Checking process is completed: marking the design violations
+[19:03:53.12] /m Information: Marking of designs is completed
+[19:03:53.12] /o 1
+[19:04:03.97] /# gi::executeAction deCellviewFromCellview -in [gi::getWindows 2]
+[19:04:03.97] /i db::showCellViewFromCellView -src [db::getAttr container -of [db::getAttr editFile -of [db::getNext [de::getContexts -window 2]]]] 
+[19:04:04.17] /o oa:0x26543cb0
+[19:04:04.37] /i gi::setActiveDialog [gi::getDialogs {dbCellViewFromCellView}]
+[19:04:04.50] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x353+242+77
+[19:04:17.89] /i gi::setField {adjustPins} -value {true} -in [gi::getDialogs {dbCellViewFromCellView}]
+[19:04:18.21] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x614+242+77
+[19:04:38.07] /i gi::setCurrentIndex {topPins} -index {0,0} -in [gi::getDialogs {dbCellViewFromCellView}]
+[19:04:55.48] /i gi::setField {generateCellViewDestinationView} -value {symbol} -in [gi::getDialogs {dbCellViewFromCellView}]
+[19:04:55.59] /i gi::pressButton {ok} -in [gi::getDialogs {dbCellViewFromCellView}]
+[19:04:55.63] /# gi::setCurrentIndex {topPins} -index {} -in [gi::getDialogs {dbCellViewFromCellView}]
+[19:04:55.73] /r giWindowId 3
+[19:04:55.73] /r giWindowGeometry 1088x591
+[19:04:56.47] /o 0.1
+[19:04:56.89] /i gi::setActiveWindow 1
+[19:04:56.92] /i gi::setActiveWindow 1 -raise true
+[19:04:57.12] /i gi::setActiveWindow 3
+[19:04:57.15] /i gi::setActiveWindow 3 -raise true
+[19:05:45.04] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[19:05:45.04] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.7375 0.23125} -index 0 -intent none] -replace true
+[19:05:45.07] /o oa:0x25a0d990
+[19:05:46.58] /# gi::executeAction seDelete -in [gi::getWindows 3]
+[19:05:46.58] /i ise::delete
+[19:05:47.83] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:05:47.83] /i de::addPoint {0.7125 0.23125} -window 3
+[19:05:52.13] /i gi::setActiveWindow 2
+[19:05:52.16] /i gi::setActiveWindow 2 -raise true
+[19:05:54.94] /# gi::executeAction seCreateShape -in [gi::getWindows 2]
+[19:05:54.94] /i ise::createShape
+[19:05:55.02] /i gi::setActiveWindow 3
+[19:05:55.06] /i gi::setActiveWindow 3 -raise true
+[19:06:13.39] /# gi::executeAction seCreateShape -in [gi::getWindows 3]
+[19:06:13.39] /i ise::createShape
+[19:06:28.36] /i gi::setActiveWindow 2
+[19:06:28.40] /i gi::setActiveWindow 2 -raise true
+[19:06:29.33] /i gi::setActiveWindow 3
+[19:06:29.37] /i gi::setActiveWindow 3 -raise true
+[19:06:30.13] /i gi::setActiveWindow 2
+[19:06:30.16] /i gi::setActiveWindow 2 -raise true
+[19:06:30.61] /i gi::setActiveWindow 3
+[19:06:30.65] /i gi::setActiveWindow 3 -raise true
+[19:06:32.72] /i gi::setActiveWindow 2
+[19:06:32.75] /i gi::setActiveWindow 2 -raise true
+[19:06:33.22] /i gi::setActiveWindow 3
+[19:06:33.26] /i gi::setActiveWindow 3 -raise true
+[19:06:34.02] /i gi::pressButton {seShapeTypeCircle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 3]]
+[19:06:34.60] /i gi::pressButton {seShapeTypeCircle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 3]]
+[19:06:46.79] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:06:46.79] /i de::addPoint {0.89375 -0.01875} -window 3
+[19:06:54.28] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:06:54.29] /i de::addPoint {0.7375 0.1} -window 3
+[19:07:00.65] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 3]]
+[19:07:04.14] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:07:04.14] /i de::addPoint {0.68125 -0.01875} -window 3
+[19:07:07.71] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:07:07.71] /i de::addPoint {0.25 0.2375} -window 3
+[19:07:11.84] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:07:11.84] /i de::addPoint {0.23125 -0.23125} -window 3
+[19:07:14.25] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:07:14.25] /i de::addPoint {0.6875 -0.0125} -window 3
+[19:07:24.44] /i gi::executeAction deSaveDesign -in [gi::getWindows 3]
+[19:07:24.50] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:07:49.19] /i gi::setActiveWindow 0
+[19:07:49.22] /i gi::setActiveWindow 0 -raise true
+[19:07:49.46] /i gi::setActiveWindow 2
+[19:07:49.50] /i gi::setActiveWindow 2 -raise true
+[19:07:49.73] /i gi::setActiveWindow 3
+[19:07:49.77] /i gi::setActiveWindow 3 -raise true
+[19:07:50.81] /i gi::setActiveWindow 2
+[19:07:50.86] /i gi::setActiveWindow 2 -raise true
+[19:07:51.11] /i gi::setActiveWindow 3
+[19:07:51.15] /i gi::setActiveWindow 3 -raise true
+[19:07:58.91] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[19:08:01.09] /i gi::setActiveWindow 2
+[19:08:01.13] /i gi::setActiveWindow 2 -raise true
+[19:08:06.34] /i gi::setActiveWindow 0
+[19:08:06.39] /i gi::setActiveWindow 0 -raise true
+[19:08:06.67] /i gi::setActiveWindow 2
+[19:08:06.71] /i gi::setActiveWindow 2 -raise true
+[19:08:10.36] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[19:08:12.63] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:08:13.01] /i gi::setActiveWindow 1
+[19:08:13.05] /i gi::setActiveWindow 1 -raise true
+[19:08:16.08] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 1]
+[19:08:16.12] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:08:17.84] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 1]
+[19:08:17.88] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[19:08:18.88] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 1]
+[19:08:18.91] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:08:20.88] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[19:08:20.97] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:08:21.02] /r giWindowId 4
+[19:08:21.03] /r giWindowGeometry 1088x591
+[19:08:25.49] /# gi::executeAction seCreateShape -in [gi::getWindows 4]
+[19:08:25.50] /i ise::createShape
+[19:08:28.25] /i gi::pressButton {seShapeTypeEllipse} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 4]]
+[19:08:28.74] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 4]]
+[19:08:33.90] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[19:08:33.90] /i de::addPoint {0.7 -0.0125} -window 4
+[19:08:35.92] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[19:08:35.92] /i de::addPoint {0.3125 0.19375} -window 4
+[19:08:37.82] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[19:08:37.82] /i de::addPoint {0.3 -0.21875} -window 4
+[19:08:39.36] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[19:08:39.36] /i de::addPoint {0.6875 -0.00625} -window 4
+[19:08:40.08] /i gi::setActiveWindow 0
+[19:08:40.13] /i gi::setActiveWindow 0 -raise true
+[19:08:40.58] /i gi::setActiveWindow 4
+[19:08:40.63] /i gi::setActiveWindow 4 -raise true
+[19:08:43.43] /i gi::executeAction deSaveDesign -in [gi::getWindows 4]
+[19:08:43.50] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:08:51.00] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[19:08:52.98] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:08:53.24] /i gi::setActiveWindow 1
+[19:08:53.30] /i gi::setActiveWindow 1 -raise true
+[19:08:55.95] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 1]
+[19:08:55.99] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[19:08:56.51] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 1]
+[19:08:56.55] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:09:02.21] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[19:09:02.40] /i gi::setActiveWindow 0
+[19:09:02.44] /i gi::setActiveWindow 0 -raise true
+[19:09:19.90] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 0]
+[19:09:19.90] /i dm::showNewCellView -parent 0
+[19:09:20.04] /o oa:0x23e162e0
+[19:09:20.35] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x336+336+120
+[19:09:20.46] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[19:09:23.79] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[19:09:23.83] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[19:09:28.95] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getDialogs {dmNewCellView}]
+[19:09:37.46] /i gi::setField {cellName} -value {inverter} -in [gi::getDialogs {dmNewCellView}]
+[19:09:45.93] /i gi::setItemSelection {cells} -index {} -in [gi::getDialogs {dmNewCellView}]
+[19:09:49.79] /i gi::setField {cellName} -value {inverter_testbench} -in [gi::getDialogs {dmNewCellView}]
+[19:09:56.92] /i gi::setField {editor} -value {Schematic\ Editor} -in [gi::getDialogs {dmNewCellView}]
+[19:10:05.37] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView}]
+[19:10:05.41] /# db::getAttr viewType -of [dm::findCellView schematic -cell [dm::findCell inverter\_testbench -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]]]
+[19:10:05.41] /# dm::createCellView schematic -cell [dm::findCell inverter\_testbench -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]] -viewType schematic
+[19:10:05.42] /# de::open [dm::findCellView schematic -cell [dm::findCell inverter\_testbench -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]]] -application seSchematic
+[19:10:05.47] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:10:05.50] /r giWindowId 5
+[19:10:05.50] /r giWindowGeometry 1088x591
+[19:10:40.50] /# gi::executeAction seCreateInst -in [gi::getWindows 5]
+[19:10:40.50] /i ise::createInst
+[19:10:41.01] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+239+38
+[19:10:41.29] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:10:44.18] /i gi::setField {instMasterLib} -value {reference} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:10:44.62] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+239+38
+[19:10:46.76] /i gi::setField {instMasterLib} -value {mylibrary} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:10:47.18] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+239+38
+[19:10:52.98] /i gi::setField {instMasterCell} -value {inverter} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:10:53.29] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+239+38
+[19:10:59.10] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:11:03.46] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[19:11:05.37] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:11:05.67] /i gi::setActiveWindow 0
+[19:11:05.73] /i gi::setActiveWindow 0 -raise true
+[19:11:08.96] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[19:11:09.35] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+445+179
+[19:11:09.95] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[19:11:10.81] /r giDialog gi::setField {saveState} -value {true} -in [gi::getDialogs {deExitDialog}]
+[19:11:11.68] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[19:11:12.14] /o Shutdown time: Thu Jan 20 19:11:12 2022
+[19:11:12.14] /o Elapsed session real time: 8.43 minutes
+[19:11:12.14] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/cdesigner.log

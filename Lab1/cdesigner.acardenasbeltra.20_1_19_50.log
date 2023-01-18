@@ -1,0 +1,693 @@
+[19:11:41.41] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Thu Jan 20 19:11:34 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[19:11:42.70] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:11:42.71] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:11:42.71] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:11:42.71] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:12:06.30] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[19:12:06.30] /i dm::showLibraryManager
+[19:12:06.32] /r giWindowId 1
+[19:12:06.32] /r giWindowGeometry 660x600+50+50
+[19:12:06.64] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:12:06.64] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:12:06.64] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:12:06.64] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:12:06.65] /o oa:0x25d9d0d0
+[19:12:08.42] /i gi::setCurrentIndex {libs} -index {reference} -in [gi::getWindows 1]
+[19:12:08.49] /i gi::setItemSelection {libs} -index {reference} -in [gi::getWindows 1]
+[19:12:09.08] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 1]
+[19:12:09.12] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[19:12:10.09] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 1]
+[19:12:10.14] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 1]
+[19:12:11.00] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 1]
+[19:12:11.04] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:12:11.99] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[19:12:12.08] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:12:12.11] /o 	############################################
+[19:12:12.11] /o 	--------------------------------------------
+[19:12:12.11] /o 	PDK Name................... : SAED_PDK_90
+[19:12:12.11] /o 	PDK Release Date........... : 29-Sep-2015
+[19:12:12.11] /o 	PDK Custom Designer Version : J-2014.12-2
+[19:12:12.11] /o 	--------------------------------------------
+[19:12:12.11] /o 	############################################
+[19:12:12.11] /o 
+[19:12:12.11] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[19:12:12.12] /o SAED PDK 90: Loaded callbacks
+[19:12:12.12] /o SAED PDK 90: Loaded display resources
+[19:12:12.15] /r giWindowId 2
+[19:12:12.15] /r giWindowGeometry 1088x591
+[19:12:19.26] /# gi::executeAction seCreateShape -in [gi::getWindows 2]
+[19:12:19.26] /i ise::createShape
+[19:12:20.87] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 2]]
+[19:12:24.12] /# gi::executeAction deAddPoint -in [gi::getWindows 2]
+[19:12:24.13] /i de::addPoint {0.69375 -0.0125} -window 2
+[19:12:26.39] /# gi::executeAction deAddPoint -in [gi::getWindows 2]
+[19:12:26.39] /i de::addPoint {0.275 0.1875} -window 2
+[19:12:30.50] /# gi::executeAction deAddPoint -in [gi::getWindows 2]
+[19:12:30.50] /i de::addPoint {0.25625 -0.2} -window 2
+[19:12:32.49] /# gi::executeAction deAddPoint -in [gi::getWindows 2]
+[19:12:32.49] /i de::addPoint {0.6875 0} -window 2
+[19:12:41.85] /i gi::executeAction deSaveDesign -in [gi::getWindows 2]
+[19:12:41.91] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:12:46.65] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[19:12:48.69] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:12:49.02] /i gi::setActiveWindow 1
+[19:12:49.08] /i gi::setActiveWindow 1 -raise true
+[19:12:54.84] /i db::setAttr geometry -of [gi::getFrames 1] -value 871x578+50+50
+[19:12:56.12] /i db::setAttr geometry -of [gi::getFrames 1] -value 1017x555+50+50
+[19:12:56.80] /i db::setAttr geometry -of [gi::getFrames 1] -value 1011x553+50+50
+[19:13:00.13] /i gi::setItemSelection {views} -index {} -in [gi::getWindows 1]
+[19:13:01.32] /i gi::setCurrentIndex {cells} -index {inverter_testbench} -in [gi::getWindows 1]
+[19:13:01.38] /i gi::setItemSelection {cells} -index {inverter_testbench} -in [gi::getWindows 1]
+[19:13:01.77] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 1]
+[19:13:01.82] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 1]
+[19:13:02.61] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 1]
+[19:13:02.65] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:13:03.44] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[19:13:03.52] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:13:03.56] /r giWindowId 3
+[19:13:03.56] /r giWindowGeometry 1088x591
+[19:13:07.68] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[19:13:07.68] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.925 0.15} -index 0 -intent none] -replace true
+[19:13:07.72] /o oa:0x25d02b80
+[19:13:10.13] /i gi::setActiveWindow 0
+[19:13:10.17] /i gi::setActiveWindow 0 -raise true
+[19:13:10.37] /i gi::setActiveWindow 3
+[19:13:10.40] /i gi::setActiveWindow 3 -raise true
+[19:13:11.23] /# gi::executeAction seDelete -in [gi::getWindows 3]
+[19:13:11.23] /i ise::delete
+[19:13:16.77] /# gi::executeAction seCreateShape -in [gi::getWindows 3]
+[19:13:16.77] /i ise::createShape
+[19:13:18.12] /i gi::pressButton {seShapeTypeCircle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 3]]
+[19:13:21.32] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:13:21.32] /i de::addPoint {0.8375 -0.00625} -window 3
+[19:13:25.72] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:13:25.72] /i de::addPoint {0.70625 0.075} -window 3
+[19:13:28.52] /i gi::pressButton {seShapeTypeEllipse} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 3]]
+[19:13:29.11] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 3]]
+[19:13:30.84] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:13:30.84] /i de::addPoint {0.68125 -0.00625} -window 3
+[19:13:32.55] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:13:32.55] /i de::addPoint {0.3125 0.16875} -window 3
+[19:13:35.35] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:13:35.35] /i de::addPoint {0.2875 -0.18125} -window 3
+[19:13:37.55] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[19:13:37.55] /i de::addPoint {0.68125 -0.0125} -window 3
+[19:13:47.24] /i gi::executeAction deSaveDesign -in [gi::getWindows 3]
+[19:13:47.30] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:13:55.98] /i gi::executeAction dbSavePrefsToFile -in [gi::getWindows 3]
+[19:13:58.06] /r giFileDialog reject ./
+[19:14:05.45] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 3]
+[19:14:05.45] /i dm::showLibraryManager
+[19:14:05.50] /# gi::setActiveWindow 1 -raise true
+[19:14:05.50] /# gi::setActiveWindow 1 -raise true
+[19:14:05.56] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:14:05.56] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:14:05.57] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:14:05.57] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:14:05.57] /o oa:0x24729e70
+[19:14:08.50] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 1]
+[19:14:08.54] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[19:14:09.58] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 1]
+[19:14:09.62] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:14:10.41] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[19:14:10.46] /r giWindowId 4
+[19:14:10.46] /r giWindowGeometry 1088x591
+[19:14:33.87] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 4]
+[19:14:33.87] /i dm::showLibraryManager
+[19:14:33.91] /# gi::setActiveWindow 1 -raise true
+[19:14:33.92] /# gi::setActiveWindow 1 -raise true
+[19:14:33.99] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:14:34.00] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:14:34.00] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:14:34.00] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:14:34.00] /o oa:0x265b7430
+[19:14:35.76] /i gi::setCurrentIndex {cells} -index {inverter_testbench} -in [gi::getWindows 1]
+[19:14:35.81] /i gi::setItemSelection {cells} -index {inverter_testbench} -in [gi::getWindows 1]
+[19:14:37.85] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[19:14:37.92] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[19:14:38.00] /r giWindowId 5
+[19:14:38.01] /r giWindowGeometry 1088x591
+[19:14:41.74] /# gi::executeAction seCreateInst -in [gi::getWindows 5]
+[19:14:41.74] /i ise::createInst
+[19:14:42.59] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+275+38
+[19:14:45.80] /i gi::setField {instMasterLib} -value {mylibrary} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:14:46.13] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+275+38
+[19:14:48.52] /i gi::setField {instMasterCell} -value {inverter} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:14:48.92] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+275+38
+[19:15:03.64] /# gi::executeAction deAddPoint -in [gi::getWindows 5]
+[19:15:03.64] /i de::addPoint {3 1.44375} -window 5
+[19:15:08.20] /i gi::pressButton {help} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:15:08.25] /e Error: System exception while executing gi::pressButton: Error: WebWorks could not show a topic hise_createInst from the collection cidCustomDesigner. (HELP-024) (COMMAND-001)
+[19:15:09.66] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 5]]
+[19:15:20.46] /# gi::executeAction seCreateShape -in [gi::getWindows 5]
+[19:15:20.46] /i ise::createShape
+[19:15:22.23] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 5]]
+[19:15:23.77] /# gi::executeAction deAddPoint -in [gi::getWindows 5]
+[19:15:23.77] /i de::addPoint {3.675 1.41875} -window 5
+[19:15:25.32] /# gi::executeAction deAddPoint -in [gi::getWindows 5]
+[19:15:25.32] /i de::addPoint {3.29375 1.6125} -window 5
+[19:15:27.40] /# gi::executeAction deAddPoint -in [gi::getWindows 5]
+[19:15:27.40] /i de::addPoint {3.31875 1.225} -window 5
+[19:15:29.57] /# gi::executeAction deAddPoint -in [gi::getWindows 5]
+[19:15:29.57] /i de::addPoint {3.66875 1.425} -window 5
+[19:15:34.33] /# gi::executeAction deUndo -in [gi::getWindows 5]
+[19:15:34.33] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 5]]]
+[19:15:39.61] /# gi::executeAction seDelete -in [gi::getWindows 5]
+[19:15:39.61] /i ise::delete
+[19:15:56.76] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[19:16:01.73] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 1]
+[19:16:01.79] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 1]
+[19:16:03.64] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 1]
+[19:16:03.68] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[19:16:04.47] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 1]
+[19:16:04.51] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:16:08.86] /i gi::executeAction dmRefreshLibs -in [gi::getWindows 1]
+[19:16:08.93] /# dm::refreshLibs; dm::refreshLibraryManager
+[19:16:08.94] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:16:08.94] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:16:08.95] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:16:08.95] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:16:08.95] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 1]
+[19:16:08.96] /# gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[19:16:08.96] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 1]
+[19:16:08.96] /# gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 1]
+[19:16:08.96] /# gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 1]
+[19:16:08.97] /# gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 1]
+[19:16:11.82] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[19:16:22.80] /i gi::executeAction deSaveDesign -in [gi::getWindows 4]
+[19:16:22.84] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:16:44.16] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[19:16:51.34] /i gi::executeAction deSaveDesign -in [gi::getWindows 3]
+[19:16:51.38] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:16:55.89] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[19:16:57.91] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:17:08.74] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[19:17:08.74] /i dm::showLibraryManager
+[19:17:08.78] /r giWindowId 6
+[19:17:08.78] /r giWindowGeometry 1011x553+50+50
+[19:17:09.12] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:17:09.12] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:17:09.12] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:17:09.12] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:17:09.12] /o oa:0x2428b730
+[19:17:10.68] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 6]
+[19:17:10.75] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 6]
+[19:17:11.84] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 6]
+[19:17:11.89] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 6]
+[19:17:12.82] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 6]
+[19:17:12.87] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 6]
+[19:17:14.06] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 6]
+[19:17:14.11] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 6]
+[19:17:14.94] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 6]
+[19:17:14.98] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 6]
+[19:17:15.05] /i gi::executeAction dmOpen -in [gi::getWindows 6]
+[19:17:15.14] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:17:15.23] /r giWindowId 7
+[19:17:15.23] /r giWindowGeometry 1088x591
+[19:17:48.72] /# gi::executeAction seCreateShape -in [gi::getWindows 7]
+[19:17:48.72] /i ise::createShape
+[19:17:51.56] /i gi::pressButton {seShapeTypeLine} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 7]]
+[19:17:57.18] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:17:57.18] /i de::addPoint {0.6875 -0.00625} -window 7
+[19:17:58.82] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:17:58.82] /i de::addPoint {0.31875 0.1875} -window 7
+[19:18:00.80] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:18:00.80] /i de::addPoint {0.3 -0.20625} -window 7
+[19:18:03.62] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:18:03.62] /i de::addPoint {0.3 -0.21875} -window 7
+[19:18:05.84] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:18:05.84] /i de::addPoint {0.6875 -0.01875} -window 7
+[19:18:14.70] /i gi::executeAction deSaveDesign -in [gi::getWindows 7]
+[19:18:14.75] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:18:18.63] /i gi::pressButton {seShapeTypeLine} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 7]]
+[19:18:21.06] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 7]]
+[19:18:22.81] /i gi::pressButton {seShapeTypeLine} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 7]]
+[19:18:28.57] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:18:28.57] /i de::addPoint {0.675 -0.00625} -window 7
+[19:18:34.95] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:18:34.95] /i de::addPoint {0.2375 0.2} -window 7
+[19:18:37.37] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:18:37.37] /i de::addPoint {0.24375 -0.225} -window 7
+[19:18:39.31] /# gi::executeAction deAddPoint -in [gi::getWindows 7]
+[19:18:39.31] /i de::addPoint {0.675 -0.00625} -window 7
+[19:18:43.04] /# gi::executeAction deDefaultCommandOption -in [gi::getWindows 7]
+[19:18:43.04] /i de::commandOption default -point {0.6875 -0.00625} -window 7
+[19:18:55.58] /i gi::executeAction deSaveDesign -in [gi::getWindows 7]
+[19:18:55.62] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:19:07.98] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[19:19:09.99] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:19:12.11] /i gi::setActiveWindow 6
+[19:19:12.15] /i gi::setActiveWindow 6 -raise true
+[19:19:13.89] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 6]
+[19:19:13.93] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 6]
+[19:19:14.80] /i gi::setItemSelection {views} -index {} -in [gi::getWindows 6]
+[19:19:15.27] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 6]
+[19:19:15.32] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 6]
+[19:19:17.25] /i gi::executeAction dmOpen -in [gi::getWindows 6]
+[19:19:17.34] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:19:17.42] /r giWindowId 8
+[19:19:17.42] /r giWindowGeometry 1088x591
+[19:19:28.96] /# gi::executeAction seCreateSelection -in [gi::getWindows 8]
+[19:19:28.96] /i ise::createSelectionShape
+[19:19:33.25] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:19:33.25] /i de::addPoint {0.68125 0.0125} -window 8
+[19:19:34.84] /# gi::executeAction deDefaultCommandOption -in [gi::getWindows 8]
+[19:19:34.84] /i de::commandOption default -point {0.6375 0.0875} -window 8
+[19:19:36.81] /# gi::executeAction seCreateShape -in [gi::getWindows 8]
+[19:19:36.81] /i ise::createShape
+[19:19:40.90] /i gi::pressButton {seShapeTypeLine} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:43.28] /i gi::pressButton {seShapeTypeRectangle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:44.26] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:45.41] /i gi::pressButton {seShapeTypeEllipse} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:46.69] /i gi::pressButton {seShapeTypeCircle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:47.57] /i gi::pressButton {seShapeTypeArc} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:48.91] /i gi::pressButton {seShapeTypeCircle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:49.28] /i gi::pressButton {seShapeTypeEllipse} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:49.96] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:50.36] /i gi::pressButton {seShapeTypeRectangle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:51.16] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:19:53.00] /i gi::pressButton {seShapeTypeLine} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:20:51.85] /i gi::pressButton {seShapeTypePolygon} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:20:53.28] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:20:53.28] /i de::addPoint {0.68125 -0.00625} -window 8
+[19:20:57.01] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:20:57.01] /i de::addPoint {0.2625 0.20625} -window 8
+[19:20:59.04] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:20:59.04] /i de::addPoint {0.225 -0.23125} -window 8
+[19:21:02.97] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:21:02.97] /i de::addPoint {0.6875 -0.00625} -window 8
+[19:21:14.86] /i gi::executeAction deSaveDesign -in [gi::getWindows 8]
+[19:21:14.90] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:21:18.00] /# gi::executeAction deSaveDesignAs -in [gi::getWindows 8]
+[19:21:18.00] /i de::showSaveDesignAs -context [db::getNext [de::getContexts -window 8]]
+[19:21:18.48] /r giDialog db::setAttr geometry -of [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 8]] -value 265x138+499+245
+[19:21:22.21] /r giDialog gi::pressButton {save} -in [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 8]]
+[19:21:22.22] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:22:33.29] /# gi::executeAction seCreateShape -in [gi::getWindows 8]
+[19:22:33.37] /i ise::createShape
+[19:22:35.48] /i gi::pressButton {seShapeTypeLine} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:22:36.99] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:36.99] /i de::addPoint {0.66875 -0.0125} -window 8
+[19:22:37.84] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:37.84] /i de::addPoint {0.25 0.225} -window 8
+[19:22:38.84] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:38.84] /i de::addPoint {0.24375 -0.2875} -window 8
+[19:22:39.87] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:39.87] /i de::addPoint {0.68125 0} -window 8
+[19:22:43.17] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:43.17] /i de::addPoint {0.68125 -0.00625} -window 8
+[19:22:44.79] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:44.79] /i de::addPoint {0.66875 0} -window 8
+[19:22:46.82] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:46.82] /i de::addPoint {0.24375 0.2375} -window 8
+[19:22:47.76] /# gi::executeAction deDefaultCommandOption -in [gi::getWindows 8]
+[19:22:47.76] /i de::commandOption default -point {0.75 0.04375} -window 8
+[19:22:48.60] /# gi::executeAction deDefaultCommandOption -in [gi::getWindows 8]
+[19:22:48.60] /i de::commandOption default -point {0.35 0.25} -window 8
+[19:22:48.76] /w Warning: Nothing is bound to the 'Button3-Double' in the current active set. (WINDOW-015)
+[19:22:50.70] /i gi::pressButton {seShapeTypeRectangle} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:22:51.78] /i gi::pressButton {seShapeTypeLine} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[19:22:53.18] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:53.18] /i de::addPoint {0.675 -0.00625} -window 8
+[19:22:54.13] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:54.13] /i de::addPoint {0.2125 0.25625} -window 8
+[19:22:56.89] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:56.89] /i de::addPoint {0.2125 -0.25} -window 8
+[19:22:58.74] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:22:58.74] /i de::addPoint {0.66875 -0.0125} -window 8
+[19:23:05.79] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {seEdit} -from [gi::getWindows 8]]
+[19:23:17.97] /# gi::executeAction seCreateSelection -in [gi::getWindows 8]
+[19:23:17.97] /i ise::createSelectionShape
+[19:23:25.17] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:23:25.17] /i de::addPoint {0.675 -0.025} -window 8
+[19:23:28.10] /# gi::executeAction deDefaultCommandOption -in [gi::getWindows 8]
+[19:23:28.10] /i de::commandOption default -point {0.675 0.09375} -window 8
+[19:23:30.36] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:23:30.36] /i de::addPoint {0.24375 0.13125} -window 8
+[19:23:37.61] /# gi::executeAction seDelete -in [gi::getWindows 8]
+[19:23:37.61] /i ise::delete
+[19:23:38.59] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:23:38.59] /i de::addPoint {0.33125 0.13125} -window 8
+[19:25:52.26] /# gi::executeAction seCreateShape -in [gi::getWindows 8]
+[19:25:52.26] /i ise::createShape
+[19:26:09.58] /# gi::executeAction seCopy -in [gi::getWindows 8]
+[19:26:09.58] /i ise::copy
+[19:26:14.92] /# gi::executeAction seMove -in [gi::getWindows 8]
+[19:26:14.92] /i ise::move
+[19:26:18.20] /# gi::executeAction seCreateShape -in [gi::getWindows 8]
+[19:26:18.20] /i ise::createShape
+[19:26:22.59] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[19:26:22.59] /i de::addPoint {0.675 0.00625} -window 8
+[19:26:22.72] /# gi::executeAction deCompleteShape -in [gi::getWindows 8]
+[19:26:22.72] /i de::completeShape -window 8
+[19:26:28.65] /i gi::executeAction deSaveDesign -in [gi::getWindows 8]
+[19:26:28.70] /m Information: Saving design 'mylibrary inverter symbol'. (DESIGN_WINDOW-004)
+[19:26:33.47] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[19:26:35.40] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:26:37.62] /i gi::setActiveWindow 6
+[19:26:37.65] /i gi::setActiveWindow 6 -raise true
+[19:26:37.69] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 6]
+[19:26:37.73] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 6]
+[19:26:38.34] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 6]
+[19:26:38.38] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 6]
+[19:27:27.56] /i gi::setCurrentIndex {cells} -index {inverter_testbench} -in [gi::getWindows 6]
+[19:27:27.64] /i gi::setItemSelection {cells} -index {inverter_testbench} -in [gi::getWindows 6]
+[19:27:33.24] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 6]
+[19:27:33.27] /i gi::executeAction dmOpen -in [gi::getWindows 6]
+[19:27:33.36] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:27:33.40] /r giWindowId 9
+[19:27:33.40] /r giWindowGeometry 1088x591
+[19:35:38.06] /# gi::executeAction seCreateInst -in [gi::getWindows 9]
+[19:35:38.06] /i ise::createInst
+[19:35:38.57] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+329+38
+[19:35:44.29] /i gi::setField {instMasterLib} -value {mylibrary} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:35:44.60] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+329+38
+[19:37:03.11] /i gi::setField {instMasterCell} -value {inverter_testbench} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:37:03.48] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+329+38
+[19:37:14.01] /i gi::setField {instMasterCell} -value {inverter} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:37:14.49] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+329+38
+[19:38:06.24] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 9]
+[19:38:06.24] /i de::zoom -window 9 -factor 2.0 -center {3.24375 1.53125}
+[19:38:06.31] /o {1.13125 0.54375} {4.4 2.0125}
+[19:38:19.46] /# gi::executeAction deAddPoint -in [gi::getWindows 9]
+[19:38:19.46] /i de::addPoint {3.08125 1.44375} -window 9
+[19:38:22.10] /# gi::executeAction deAddPoint -in [gi::getWindows 9]
+[19:38:22.10] /i de::addPoint {3.0625 1.4375} -window 9
+[19:38:22.22] /# gi::executeAction deCompleteShape -in [gi::getWindows 9]
+[19:38:22.22] /i de::completeShape -window 9
+[19:38:24.50] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 9]
+[19:38:24.50] /i de::zoom -window 9 -factor 2.0 -center {3.56875 1.59375}
+[19:38:24.58] /o {2.35 1.06875} {3.98125 1.8}
+[19:38:25.24] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 9]
+[19:38:25.24] /i de::zoom -window 9 -factor 0.5 -center {3.53125 1.5625}
+[19:38:25.31] /o {1.16875 0.575} {4.4375 2.04375}
+[19:38:25.35] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 9]
+[19:38:25.35] /i de::zoom -window 9 -factor 0.5 -center {3.53125 1.5625}
+[19:38:25.44] /o {-1.1875 -0.40625} {5.34375 2.525}
+[19:42:00.23] /i gi::setField {instMasterLib} -value {analogLib} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:42:00.56] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+329+38
+[19:42:26.61] /i gi::setField {instMasterCell} -value {vdc} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:42:29.18] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x584+329+38
+[19:42:29.43] /i gi::setItemSelection {parameters} -index {vdc,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:42:29.54] /i gi::setCurrentIndex {parameters} -index {vdc,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:42:54.89] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:43:01.30] /# gi::executeAction seCreateInst -in [gi::getWindows 9]
+[19:43:01.30] /i ise::createInst
+[19:43:01.60] /o 0
+[19:43:02.04] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x584+329+38
+[19:43:05.53] /i gi::setItemSelection {parameters} -index {vdc,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:43:05.63] /i gi::setCurrentIndex {parameters} -index {vdc,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:43:07.70] /# gi::executeAction deRemovePoint -in [gi::getWindows 9]
+[19:43:07.70] /i de::removePoint {0.04375 2.28125} -window 9
+[19:43:08.57] /# gi::executeAction dePanSouthWest -in [gi::getWindows 9]
+[19:43:08.57] /i de::pan -direction SW -multiplier 0.5
+[19:43:08.68] /o {-4.45 -1.86875} {2.08125 1.0625}
+[19:43:13.05] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 9]]
+[19:43:15.62] /# gi::executeAction deUndo -in [gi::getWindows 9]
+[19:43:15.62] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 9]]]
+[19:43:17.96] /# gi::executeAction deUndo -in [gi::getWindows 9]
+[19:43:17.96] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 9]]]
+[19:43:27.71] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[19:43:29.86] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:43:34.58] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[19:43:49.10] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[19:43:49.10] /i dm::showLibraryManager
+[19:43:49.14] /r giWindowId 10
+[19:43:49.14] /r giWindowGeometry 1011x553+50+50
+[19:43:49.47] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:43:49.47] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:43:49.47] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:43:49.47] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:43:49.48] /o oa:0x23379440
+[19:43:58.30] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 10]
+[19:43:58.37] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 10]
+[19:44:01.64] /i gi::setCurrentIndex {cells} -index {inverter_testbench} -in [gi::getWindows 10]
+[19:44:01.69] /i gi::setItemSelection {cells} -index {inverter_testbench} -in [gi::getWindows 10]
+[19:44:03.01] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 10]
+[19:44:03.06] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 10]
+[19:44:03.96] /i gi::executeAction dmOpen -in [gi::getWindows 10]
+[19:44:04.06] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:44:04.09] /r giWindowId 11
+[19:44:04.09] /r giWindowGeometry 1088x591
+[19:44:17.54] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 11]
+[19:44:17.54] /i dm::showLibraryManager
+[19:44:17.57] /# gi::setActiveWindow 10 -raise true
+[19:44:17.58] /# gi::setActiveWindow 10 -raise true
+[19:44:17.65] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:44:17.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:44:17.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:44:17.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:44:17.66] /o oa:0x26d2bb20
+[19:44:19.62] /i gi::setItemSelection {views} -index {} -in [gi::getWindows 10]
+[19:44:19.74] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 10]
+[19:44:19.77] /i gi::executeAction dmOpen -in [gi::getWindows 10]
+[19:44:19.82] /r giWindowId 12
+[19:44:19.83] /r giWindowGeometry 1088x591
+[19:44:28.43] /i gi::executeAction giCloseWindow -in [gi::getWindows 12]
+[19:44:34.93] /i gi::executeAction giCloseWindow -in [gi::getWindows 10]
+[19:44:39.37] /# gi::executeAction seCreateInst -in [gi::getWindows 11]
+[19:44:39.37] /i ise::createInst
+[19:44:39.41] /e Error: The active window does not exist. (INTERACTIVE_COMMAND-002)
+[19:44:44.10] /# gi::executeAction seCreateInst -in [gi::getWindows 11]
+[19:44:44.10] /i ise::createInst
+[19:44:44.14] /e Error: The active window does not exist. (INTERACTIVE_COMMAND-002)
+[19:44:53.25] /i gi::executeAction giCloseWindow -in [gi::getWindows 11]
+[19:44:55.11] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:44:58.77] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[19:44:58.77] /i dm::showLibraryManager
+[19:44:58.80] /r giWindowId 13
+[19:44:58.81] /r giWindowGeometry 1011x553+50+50
+[19:44:59.12] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:44:59.13] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:44:59.13] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:44:59.13] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:44:59.13] /o oa:0x247bc880
+[19:45:00.57] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 13]
+[19:45:00.61] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 13]
+[19:45:01.86] /i gi::setCurrentIndex {cells} -index {inverter_testbench} -in [gi::getWindows 13]
+[19:45:01.91] /i gi::setItemSelection {cells} -index {inverter_testbench} -in [gi::getWindows 13]
+[19:45:03.18] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 13]
+[19:45:03.22] /i gi::executeAction dmOpen -in [gi::getWindows 13]
+[19:45:03.30] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:45:03.32] /r giWindowId 14
+[19:45:03.32] /r giWindowGeometry 1088x591
+[19:45:06.73] /# gi::executeAction seCreateInst -in [gi::getWindows 14]
+[19:45:06.73] /i ise::createInst
+[19:45:07.58] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+383+38
+[19:45:09.77] /i gi::setField {instMasterLib} -value {mylibrary} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:45:10.09] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+383+38
+[19:45:12.46] /i gi::setField {instMasterCell} -value {inverter_testbench} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:45:12.85] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+383+38
+[19:45:14.53] /i gi::setField {instMasterCell} -value {inverter} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:45:14.99] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+383+38
+[19:45:18.91] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:45:18.91] /i de::addPoint {2.94375 1.45} -window 14
+[19:45:22.99] /i gi::setField {instMasterLib} -value {analogLib} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:45:23.41] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+383+38
+[19:45:48.60] /i gi::setField {instMasterCell} -value {vdc} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:45:48.92] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x584+383+38
+[19:45:50.40] /i gi::setItemSelection {parameters} -index {vdc,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:45:50.50] /i gi::setCurrentIndex {parameters} -index {vdc,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:45:55.23] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:45:55.23] /i de::addPoint {2.4 1.63125} -window 14
+[19:46:32.39] /i gi::setField {instMasterCell} -value {vpulse} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:46:32.71] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x597+383+38
+[19:46:34.41] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:46:34.41] /i de::addPoint {2.65625 0.93125} -window 14
+[19:46:44.84] /i gi::setField {instMasterCell} -value {gnd} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:46:45.17] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+383+38
+[19:46:49.51] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:46:49.51] /i de::addPoint {3.4625 0.35} -window 14
+[19:46:52.70] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 14]]
+[19:46:59.59] /# gi::executeAction deSelectActive -in [gi::getWindows 14]
+[19:46:59.59] /i de::select [de::getActiveFigure [gi::getWindows 14] -point {2.475 1.5125} -index 0 -intent none] -replace true
+[19:46:59.63] /o oa:0x26ddd6b0
+[19:47:06.47] /# gi::executeAction dePropertyEditorToggle -in [gi::getWindows 14]
+[19:47:06.47] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 14]] -value true
+[19:47:08.64] /i gi::setItemSelection {parameters} -index {vdc,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 14]]
+[19:47:08.74] /i gi::setCurrentIndex {parameters} -index {vdc,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 14]]
+[19:47:13.28] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 14]] -value false
+[19:47:16.42] /# gi::executeAction seMove -in [gi::getWindows 14]
+[19:47:16.42] /i ise::move
+[19:47:18.43] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:47:18.43] /i de::addPoint {2.44375 1.475} -window 14
+[19:47:19.98] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:47:19.98] /i de::addPoint {1.9125 1.5125} -window 14
+[19:47:20.84] /# gi::executeAction deSelectActive -in [gi::getWindows 14]
+[19:47:20.84] /i de::select [de::getActiveFigure [gi::getWindows 14] -point {2.7 0.75} -index 0 -intent none] -replace true
+[19:47:20.87] /o oa:0x2707b810
+[19:47:22.08] /# gi::executeAction seStretchDirect -in [gi::getWindows 14]
+[19:47:22.08] /i ise::stretch -point {2.8125 0.8125}
+[19:47:26.56] /# gi::executeAction deEndDrag -in [gi::getWindows 14]
+[19:47:26.56] /i de::endDrag {2.54375 1.43125} -window 14
+[19:47:26.97] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 14]
+[19:47:26.97] /i de::zoom -window 14 -factor 2.0 -center {4.1125 0.66875}
+[19:47:27.05] /o {1.56875 0.1125} {4.83125 1.58125}
+[19:47:27.92] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 14]
+[19:47:27.92] /i de::zoom -window 14 -factor 0.5 -center {3.69375 0.95}
+[19:47:27.99] /o {-0.55625 -0.71875} {5.975 2.2125}
+[19:47:30.50] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 14]
+[19:47:30.50] /i de::zoom -window 14 -factor 2.0 -center {4.36875 0.9375}
+[19:47:30.58] /o {1.90625 0.10625} {5.16875 1.575}
+[19:47:32.00] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 14]
+[19:47:32.00] /i de::zoom -window 14 -factor 0.5 -center {2.375 1.00625}
+[19:47:32.08] /o {1.4375 -0.7875} {7.96875 2.14375}
+[19:47:33.77] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 14]
+[19:47:33.77] /i de::zoom -window 14 -factor 2.0 -center {4.36875 0.775}
+[19:47:33.85] /o {2.9 -0.00625} {6.16875 1.45625}
+[19:47:35.12] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 14]
+[19:47:35.12] /i de::zoom -window 14 -factor 0.5 -center {3.20625 1.11875}
+[19:47:35.19] /o {2.6 -1.13125} {9.13125 1.8}
+[19:47:37.07] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 14]
+[19:47:37.07] /i de::zoom -window 14 -factor 2.0 -center {3.3 1.3125}
+[19:47:37.15] /o {2.95 0.0875} {6.2125 1.55625}
+[19:47:38.35] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 14]
+[19:47:38.35] /i de::zoom -window 14 -factor 0.5 -center {4.33125 0.9125}
+[19:47:38.43] /o {1.56875 -0.73125} {8.1 2.2}
+[19:47:39.46] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 14]
+[19:47:39.46] /i de::zoom -window 14 -factor 2.0 -center {2.225 1.3125}
+[19:47:39.54] /o {1.89375 0.2875} {5.1625 1.75625}
+[19:47:40.50] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 14]
+[19:47:40.50] /i de::zoom -window 14 -factor 0.5 -center {3.51875 0.9625}
+[19:47:40.57] /o {0.275 -0.38125} {6.80625 2.55}
+[19:47:41.21] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 14]
+[19:47:41.21] /i de::zoom -window 14 -factor 2.0 -center {1.9875 1.2}
+[19:47:41.28] /o {1.13125 0.40625} {4.39375 1.875}
+[19:47:49.40] /# gi::executeAction seSchCreateWire -in [gi::getWindows 14]
+[19:47:49.41] /i ise::createWire
+[19:47:51.17] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:47:51.17] /i de::addPoint {2.925 1.425} -window 14
+[19:47:51.36] /i de::setCursor -point {2.875 1.4375 }
+[19:47:53.83] /# gi::executeAction seSchWireToggleJogStyle -in [gi::getWindows 14]
+[19:47:53.83] /i de::commandOption toggleJogStyle -point {2.9375 1.4375}
+[19:47:53.95] /i de::setCursor -point {2.875 1.375 }
+[19:47:54.01] /i de::setCursor -point {2.625 1.25 }
+[19:47:54.65] /i de::setCursor -point {2.875 1.5 }
+[19:47:54.70] /i de::setCursor -point {2.9375 1.5 }
+[19:47:55.44] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:47:55.44] /i de::addPoint {2.93125 1.44375} -window 14
+[19:47:55.54] /i de::setCursor -point {2.875 1.375 }
+[19:47:55.60] /i de::setCursor -point {2.375 1.25 }
+[19:47:56.70] /# gi::executeAction seMove -in [gi::getWindows 14]
+[19:47:56.70] /i ise::move
+[19:47:57.77] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:47:57.77] /i de::addPoint {2.45 1.36875} -window 14
+[19:48:00.75] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:00.75] /i de::addPoint {2.35625 1.225} -window 14
+[19:48:01.73] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:01.73] /i de::addPoint {1.8625 1.4125} -window 14
+[19:48:06.69] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:06.69] /i de::addPoint {1.66875 1.2375} -window 14
+[19:48:08.06] /# gi::executeAction seSchCreateWire -in [gi::getWindows 14]
+[19:48:08.06] /i ise::createWire
+[19:48:09.77] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:09.77] /i de::addPoint {2.93125 1.43125} -window 14
+[19:48:10.92] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:10.92] /i de::addPoint {2.38125 1.4375} -window 14
+[19:48:14.15] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 14]
+[19:48:14.15] /i de::zoom -window 14 -factor 2.0 -center {2.48125 1.375}
+[19:48:14.22] /o {1.80625 0.89375} {3.4375 1.625}
+[19:48:14.85] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 14]
+[19:48:14.85] /i de::zoom -window 14 -factor 0.5 -center {2.48125 1.375}
+[19:48:14.92] /o {1.13125 0.40625} {4.39375 1.875}
+[19:48:15.64] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 14]
+[19:48:15.64] /i de::zoom -window 14 -factor 0.5 -center {2.8875 1.4625}
+[19:48:15.71] /o {-0.625 -0.64375} {5.90625 2.2875}
+[19:48:17.69] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:17.69] /i de::addPoint {3.4375 1.8125} -window 14
+[19:48:18.44] /i de::setCursor -point {3.4375 1.875 }
+[19:48:19.46] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:19.46] /i de::addPoint {3.44375 1.975} -window 14
+[19:48:19.92] /i de::setCursor -point {3.375 2 }
+[19:48:21.62] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:21.62] /i de::addPoint {1.6875 1.9875} -window 14
+[19:48:21.66] /i de::setCursor -point {1.75 1.9375 }
+[19:48:21.72] /i de::setCursor -point {1.75 1.8125 }
+[19:48:22.91] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:22.91] /i de::addPoint {1.65625 1.44375} -window 14
+[19:48:25.02] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:25.02] /i de::addPoint {1.675 1.075} -window 14
+[19:48:27.01] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:27.01] /i de::addPoint {1.66875 0.56875} -window 14
+[19:48:27.08] /i de::setCursor -point {1.8125 0.5625 }
+[19:48:28.13] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:28.14] /i de::addPoint {3.45625 0.53125} -window 14
+[19:48:28.24] /i de::setCursor -point {3.5 0.625 }
+[19:48:28.29] /i de::setCursor -point {3.5 0.75 }
+[19:48:29.43] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:29.43] /i de::addPoint {3.4375 1.06875} -window 14
+[19:48:30.90] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:30.90] /i de::addPoint {3.44375 0.54375} -window 14
+[19:48:31.57] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:31.57] /i de::addPoint {3.425 0.34375} -window 14
+[19:48:33.67] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:33.67] /i de::addPoint {2.36875 1.05625} -window 14
+[19:48:34.86] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:34.86] /i de::addPoint {2.38125 0.5625} -window 14
+[19:48:42.92] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:42.92] /i de::addPoint {3.9625 1.43125} -window 14
+[19:48:42.95] /i de::setCursor -point {4 1.4375 }
+[19:48:47.13] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:48:47.13] /i de::addPoint {4.24375 1.44375} -window 14
+[19:48:47.42] /i de::setCursor -point {4.3125 1.375 }
+[19:48:47.54] /i de::setCursor -point {4.375 1.25 }
+[19:48:49.26] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 14]
+[19:48:49.26] /i ise::createSchematicPin
+[19:48:53.94] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 14]
+[19:48:53.94] /i ise::createSchematicPin
+[19:48:54.75] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 14]
+[19:48:54.75] /i ise::createSchematicPin
+[19:48:59.98] /i gi::setField {schematicPinType} -value {output} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 14]]
+[19:49:03.91] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:49:03.91] /i de::addPoint {4.26875 1.44375} -window 14
+[19:49:03.95] /w Warning: No wiring objects were found at this location. (SE-928)
+[19:49:05.86] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:49:05.86] /i de::addPoint {4.2 1.425} -window 14
+[19:49:05.90] /w Warning: No wiring objects were found at this location. (SE-928)
+[19:49:11.56] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:49:11.56] /i de::addPoint {3.69375 1.4625} -window 14
+[19:49:11.60] /w Warning: No wiring objects were found at this location. (SE-928)
+[19:49:13.01] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:49:13.01] /i de::addPoint {4.2875 1.41875} -window 14
+[19:49:13.05] /w Warning: No wiring objects were found at this location. (SE-928)
+[19:49:13.77] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:49:13.77] /i de::addPoint {4.26875 1.425} -window 14
+[19:49:13.81] /w Warning: No wiring objects were found at this location. (SE-928)
+[19:49:15.19] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:49:15.19] /i de::addPoint {3.96875 1.43125} -window 14
+[19:49:15.23] /w Warning: No wiring objects were found at this location. (SE-928)
+[19:49:16.57] /# gi::executeAction deAddPoint -in [gi::getWindows 14]
+[19:49:16.57] /i de::addPoint {4.23125 1.41875} -window 14
+[19:49:16.62] /w Warning: No wiring objects were found at this location. (SE-928)
+[19:49:20.61] /# gi::executeAction seSchCreateWireName -in [gi::getWindows 14]
+[19:49:20.61] /i ise::createWireName
+[19:49:40.70] /i gi::executeAction deSaveDesign -in [gi::getWindows 14]
+[19:49:40.75] /m Information: Saving design 'mylibrary inverter_testbench schematic'. (DESIGN_WINDOW-004)
+[19:49:43.42] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 14]
+[19:49:43.42] /i ise::check
+[19:49:43.47] /m Information: 
+[19:49:43.47] /o Checking "mylibrary/inverter_testbench/schematic"
+[19:49:43.47] /o 	[warning] Floating Output Instance Pins
+[19:49:43.48] /o 		Output pin 'VOUT' of instance 'I0' is floating
+[19:49:43.48] /o 0 Error(s),1 Warning(s),0 Message(s) found   in "mylibrary/inverter_testbench/schematic"
+[19:49:43.48] /m Information: Checking process is completed: marking the design violations
+[19:49:43.56] /m Information: Marking of designs is completed
+[19:49:43.56] /o 1
+[19:49:52.74] /i gi::executeAction giCloseWindow -in [gi::getWindows 14]
+[19:49:54.94] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:50:25.67] /i gi::executeAction giCloseWindow -in [gi::getWindows 13]
+[19:50:27.69] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[19:50:28.06] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+445+179
+[19:50:30.19] /r giDialog gi::setField {saveState} -value {true} -in [gi::getDialogs {deExitDialog}]
+[19:50:31.22] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[19:50:31.64] /o Shutdown time: Thu Jan 20 19:50:31 2022
+[19:50:31.64] /o Elapsed session real time: 38.83 minutes
+[19:50:31.64] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/cdesigner.log

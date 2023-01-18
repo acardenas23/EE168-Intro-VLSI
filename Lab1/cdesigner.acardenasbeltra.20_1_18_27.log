@@ -1,0 +1,655 @@
+[17:53:19.47] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Thu Jan 20 17:53:12 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[17:53:27.45] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 0]
+[17:53:27.45] /i dm::showNewLibrary -parent 0
+[17:53:27.55] /o oa:0x22889440
+[17:53:27.88] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary}]
+[17:53:28.14] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary}] -value 434x493+103+0
+[17:53:29.85] /i gi::setField {libName} -value {h} -in [gi::getDialogs {dmNewLibrary}]
+[17:53:37.85] /i gi::setField {libName} -value {mylibrary} -in [gi::getDialogs {dmNewLibrary}]
+[17:53:51.72] /i gi::setField {techTypeFile} -value {true} -in [gi::getDialogs {dmNewLibrary}]
+[17:53:57.39] /i gi::pressButton {techFileBrowse} -in [gi::getDialogs {dmNewLibrary}]
+[17:54:51.54] /r giFileDialog accept ../../../../usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf
+[17:55:07.37] /i gi::pressButton {apply} -in [gi::getDialogs {dmNewLibrary}]
+[17:55:07.43] /# dm::createLib mylibrary -path {./mylibrary} -dmSystem oaDMFileSys
+[17:55:07.44] /# db::importTechFile /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]; oa::save [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 839] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 840] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 841] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 843] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 844] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 845] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 846] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 848] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 853] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 855] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 856] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 857] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /m Information: Information: constraint name 'validLayers' of simple constraint is replaced by constraint name 'validRoutingLayers'.[line 983] (TECH_IO-090). (TECH_IO-098)
+[17:55:07.45] /w Warning: Section leRules is not supported by tech parser,  and skipped.  line[1037] (TECH_IO-076)
+[17:55:07.47] /w Warning: standViaDef DIFFCON: cut layer CO mask number 23 is not between via layers DIFF(2), M1(6). (TECH_IO-096)
+[17:55:07.47] /w Warning: standViaDef VIA78: cut layer VIA7 mask number 21 is not between via layers M7(18), M8(19). (TECH_IO-096)
+[17:55:07.47] /w Warning: standViaDef VIA89: cut layer VIA8 mask number 22 is not between via layers M8(19), M9(20). (TECH_IO-096)
+[17:55:07.47] /m Information: creating new layer pair constraint definition minEnclosure (TECH_IO-050)
+[17:55:07.47] /m Information: creating new layer pair constraint definition endOfLineEnclosure (TECH_IO-050)
+[17:55:07.49] /m Information: Technology file /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf is successfully imported into lib mylibrary. (TECH_IO-099)
+[17:55:07.51] /# oa::close [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:55:12.33] /i gi::pressButton {apply} -in [gi::getDialogs {dmNewLibrary}]
+[17:55:12.75] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmMessage}] -value 612x119+14+221
+[17:55:13.70] /r giDialog gi::setActiveDialog [gi::getDialogs {dmMessage}]
+[17:55:14.51] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {dmMessage}]
+[17:55:14.91] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary}]
+[17:55:15.76] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary}]
+[17:55:16.16] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmMessage}] -value 612x119+14+221
+[17:55:17.20] /r giDialog gi::setActiveDialog [gi::getDialogs {dmMessage}]
+[17:55:18.99] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {dmMessage}]
+[17:55:19.16] /# dm::createLib mylibrary -path {./mylibrary} -dmSystem oaDMFileSys
+[17:55:19.16] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Unable to open library mylibrary at path /home/eemaj/acardenasbeltra/ee168/mylibrary : No access permission. (DATA_MANAGEMENT-014)
+[17:55:19.17] /# db::importTechFile /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]; oa::save [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:55:19.17] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 839] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.17] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 840] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.17] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 841] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 843] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 844] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 845] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 846] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 848] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 853] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 855] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 856] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 857] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /m Information: Information: constraint name 'validLayers' of simple constraint is replaced by constraint name 'validRoutingLayers'.[line 983] (TECH_IO-090). (TECH_IO-098)
+[17:55:19.18] /w Warning: Section leRules is not supported by tech parser,  and skipped.  line[1037] (TECH_IO-076)
+[17:55:19.19] /w Warning: standViaDef DIFFCON: cut layer CO mask number 23 is not between via layers DIFF(2), M1(6). (TECH_IO-096)
+[17:55:19.19] /w Warning: standViaDef VIA78: cut layer VIA7 mask number 21 is not between via layers M7(18), M8(19). (TECH_IO-096)
+[17:55:19.19] /w Warning: standViaDef VIA89: cut layer VIA8 mask number 22 is not between via layers M8(19), M9(20). (TECH_IO-096)
+[17:55:19.19] /m Information: creating new layer pair constraint definition minEnclosure (TECH_IO-050)
+[17:55:19.19] /m Information: creating new layer pair constraint definition endOfLineEnclosure (TECH_IO-050)
+[17:55:19.21] /m Information: Technology file /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf is successfully imported into lib mylibrary. (TECH_IO-099)
+[17:55:19.22] /# oa::close [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:55:52.69] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 0]
+[17:55:52.69] /i dm::showNewCellView -parent 0
+[17:55:52.83] /o oa:0x23fc7c90
+[17:55:53.09] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[17:55:53.28] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x336+116+96
+[17:56:01.02] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[17:56:01.06] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[17:56:03.67] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getDialogs {dmNewCellView}]
+[17:56:18.44] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getDialogs {dmNewCellView}]
+[17:56:18.48] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getDialogs {dmNewCellView}]
+[17:56:20.53] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getDialogs {dmNewCellView}]
+[17:56:20.57] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getDialogs {dmNewCellView}]
+[17:56:21.94] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCellView}]
+[17:56:40.09] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[17:56:40.09] /i dm::showLibraryManager
+[17:56:40.13] /r giWindowId 1
+[17:56:40.13] /r giWindowGeometry 660x600+50+50
+[17:56:40.45] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[17:56:40.46] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[17:56:40.46] /o oa:0x21921770
+[17:56:42.59] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 1]
+[17:56:42.64] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[17:56:43.88] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getWindows 1]
+[17:57:07.26] /i gi::executeAction dmDelete -in [gi::getWindows 1]
+[17:57:07.65] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 364x104+228+212
+[17:57:07.81] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[17:57:09.57] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[17:57:09.72] /# db::destroy [oa::LibFind [oa::ScalarName  [oa::CdbaNS] mylibrary]]
+[17:57:09.74] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[17:57:09.74] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[17:57:09.75] /# gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 1]
+[17:57:09.75] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 1]
+[17:57:15.81] /i gi::setActiveWindow 0
+[17:57:15.85] /i gi::setActiveWindow 0 -raise true
+[17:57:16.04] /i gi::setActiveWindow 1
+[17:57:16.08] /i gi::setActiveWindow 1 -raise true
+[17:57:16.57] /i gi::setActiveWindow 0
+[17:57:16.61] /i gi::setActiveWindow 0 -raise true
+[17:57:16.84] /i gi::setActiveWindow 1
+[17:57:16.88] /i gi::setActiveWindow 1 -raise true
+[17:57:17.19] /i gi::setActiveWindow 0
+[17:57:17.23] /i gi::setActiveWindow 0 -raise true
+[17:57:18.37] /i gi::setActiveWindow 1
+[17:57:18.41] /i gi::setActiveWindow 1 -raise true
+[17:57:23.28] /i gi::setActiveWindow 0
+[17:57:23.32] /i gi::setActiveWindow 0 -raise true
+[17:57:23.53] /i gi::setActiveWindow 1
+[17:57:23.56] /i gi::setActiveWindow 1 -raise true
+[17:57:23.79] /i db::setAttr geometry -of [gi::getFrames 1] -value 943x452+50+50
+[17:57:23.94] /i gi::setActiveWindow 0
+[17:57:23.98] /i gi::setActiveWindow 0 -raise true
+[17:57:24.21] /i gi::setActiveWindow 1
+[17:57:24.26] /i gi::setActiveWindow 1 -raise true
+[17:57:27.65] /i gi::setActiveWindow 0
+[17:57:27.69] /i gi::setActiveWindow 0 -raise true
+[17:57:27.88] /i gi::setActiveWindow 1
+[17:57:27.92] /i gi::setActiveWindow 1 -raise true
+[17:57:31.80] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[17:57:32.05] /i gi::setActiveWindow 0
+[17:57:32.10] /i gi::setActiveWindow 0 -raise true
+[17:57:41.09] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 0]
+[17:57:41.09] /i dm::showNewLibrary -parent 0
+[17:57:41.22] /o oa:0x244e4120
+[17:57:41.49] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary}]
+[17:57:41.74] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary}] -value 434x493+103+0
+[17:57:49.94] /i gi::setField {libName} -value {mylibrary} -in [gi::getDialogs {dmNewLibrary}]
+[17:58:12.84] /i gi::pressButton {apply} -in [gi::getDialogs {dmNewLibrary}]
+[17:58:12.89] /# dm::createLib mylibrary -path {./mylibrary} -dmSystem oaDMFileSys
+[17:58:12.89] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Unable to open library mylibrary at path /home/eemaj/acardenasbeltra/ee168/mylibrary : No access permission. (DATA_MANAGEMENT-014)
+[17:58:12.90] /# db::importTechFile /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]; oa::save [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 839] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 840] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 841] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 843] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 844] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 845] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 846] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 848] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 853] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 855] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 856] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 857] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.90] /m Information: Information: constraint name 'validLayers' of simple constraint is replaced by constraint name 'validRoutingLayers'.[line 983] (TECH_IO-090). (TECH_IO-098)
+[17:58:12.91] /w Warning: Section leRules is not supported by tech parser,  and skipped.  line[1037] (TECH_IO-076)
+[17:58:12.92] /w Warning: standViaDef DIFFCON: cut layer CO mask number 23 is not between via layers DIFF(2), M1(6). (TECH_IO-096)
+[17:58:12.92] /w Warning: standViaDef VIA78: cut layer VIA7 mask number 21 is not between via layers M7(18), M8(19). (TECH_IO-096)
+[17:58:12.92] /w Warning: standViaDef VIA89: cut layer VIA8 mask number 22 is not between via layers M8(19), M9(20). (TECH_IO-096)
+[17:58:12.92] /m Information: creating new layer pair constraint definition minEnclosure (TECH_IO-050)
+[17:58:12.92] /m Information: creating new layer pair constraint definition endOfLineEnclosure (TECH_IO-050)
+[17:58:12.94] /m Information: Technology file /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf is successfully imported into lib mylibrary. (TECH_IO-099)
+[17:58:12.95] /# oa::close [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:58:15.16] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary}]
+[17:58:15.56] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmMessage}] -value 612x119+324+229
+[17:58:15.87] /r giDialog gi::setActiveDialog [gi::getDialogs {dmMessage}]
+[17:58:26.98] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {dmMessage}]
+[17:58:27.12] /# dm::createLib mylibrary -path {./mylibrary} -dmSystem oaDMFileSys
+[17:58:27.12] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Unable to open library mylibrary at path /home/eemaj/acardenasbeltra/ee168/mylibrary : No access permission. (DATA_MANAGEMENT-014)
+[17:58:27.12] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Unable to open library mylibrary at path /home/eemaj/acardenasbeltra/ee168/mylibrary : No access permission. (DATA_MANAGEMENT-014)
+[17:58:27.13] /# db::importTechFile /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]; oa::save [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 839] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 840] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 841] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 843] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 844] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 845] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 846] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 848] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 853] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 855] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 856] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.13] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 857] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.14] /m Information: Information: constraint name 'validLayers' of simple constraint is replaced by constraint name 'validRoutingLayers'.[line 983] (TECH_IO-090). (TECH_IO-098)
+[17:58:27.14] /w Warning: Section leRules is not supported by tech parser,  and skipped.  line[1037] (TECH_IO-076)
+[17:58:27.15] /w Warning: standViaDef DIFFCON: cut layer CO mask number 23 is not between via layers DIFF(2), M1(6). (TECH_IO-096)
+[17:58:27.15] /w Warning: standViaDef VIA78: cut layer VIA7 mask number 21 is not between via layers M7(18), M8(19). (TECH_IO-096)
+[17:58:27.15] /w Warning: standViaDef VIA89: cut layer VIA8 mask number 22 is not between via layers M8(19), M9(20). (TECH_IO-096)
+[17:58:27.15] /m Information: creating new layer pair constraint definition minEnclosure (TECH_IO-050)
+[17:58:27.15] /m Information: creating new layer pair constraint definition endOfLineEnclosure (TECH_IO-050)
+[17:58:27.17] /m Information: Technology file /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf is successfully imported into lib mylibrary. (TECH_IO-099)
+[17:58:27.18] /# oa::close [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[17:58:29.75] /i gi::setActiveTab {ConsoleTabs} -tabName {HistoryTab} -in [gi::getWindows 0]
+[17:58:30.28] /i gi::setActiveTab {ConsoleTabs} -tabName {ErrorTab} -in [gi::getWindows 0]
+[17:58:32.32] /i gi::setActiveTab {ConsoleTabs} -tabName {HistoryTab} -in [gi::getWindows 0]
+[17:58:32.96] /i gi::setActiveTab {ConsoleTabs} -tabName {LogTab} -in [gi::getWindows 0]
+[17:58:43.00] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 0]
+[17:58:43.00] /i dm::showNewCellView -parent 0
+[17:58:43.15] /o oa:0x226ae060
+[17:58:43.44] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[17:58:43.57] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x336+116+96
+[17:58:49.08] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[17:58:49.12] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[17:59:00.10] /i gi::setField {cellName} -value {inverter} -in [gi::getDialogs {dmNewCellView}]
+[17:59:09.33] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView}]
+[17:59:09.37] /# db::getAttr viewType -of [dm::findCellView schematic -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]]]
+[17:59:09.37] /# dm::createCellView schematic -cell [dm::findCell inverter -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]] -viewType schematic
+[17:59:09.38] /# de::open [dm::findCellView schematic -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]]] -application seSchematic
+[17:59:09.43] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[17:59:09.62] /r giWindowId 2
+[17:59:09.62] /r giWindowGeometry 1088x591
+[17:59:50.52] /i gi::setActiveWindow 0
+[17:59:50.57] /i gi::setActiveWindow 0 -raise true
+[17:59:54.32] /i gi::setActiveWindow 2
+[17:59:54.36] /i gi::setActiveWindow 2 -raise true
+[18:02:30.75] /i gi::setActiveWindow 0
+[18:02:30.80] /i gi::setActiveWindow 0 -raise true
+[18:02:32.72] /i gi::setActiveWindow 2
+[18:02:32.76] /i gi::setActiveWindow 2 -raise true
+[18:02:44.68] /i db::setAttr geometry -of [gi::getFrames 2] -value 1088x588+7+23
+[18:02:46.29] /i db::setAttr geometry -of [gi::getFrames 2] -value 1140x234+7+23
+[18:02:49.67] /i gi::setActiveWindow 0
+[18:02:49.71] /i gi::setActiveWindow 0 -raise true
+[18:02:53.71] /i gi::setActiveWindow 2
+[18:02:53.74] /i gi::setActiveWindow 2 -raise true
+[18:02:56.81] /i db::setAttr geometry -of [gi::getFrames 2] -value 1145x234+7+23
+[18:03:00.09] /i db::setAttr geometry -of [gi::getFrames 2] -value 1257x234+7+23
+[18:03:00.91] /i gi::setActiveWindow 0
+[18:03:00.95] /i gi::setActiveWindow 0 -raise true
+[18:03:01.17] /i gi::setActiveWindow 2
+[18:03:01.20] /i gi::setActiveWindow 2 -raise true
+[18:03:01.40] /i gi::setActiveWindow 0
+[18:03:01.44] /i gi::setActiveWindow 0 -raise true
+[18:03:03.80] /i gi::setActiveWindow 2
+[18:03:03.84] /i gi::setActiveWindow 2 -raise true
+[18:03:14.91] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[18:03:16.96] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[18:03:18.17] /i gi::setActiveWindow 0
+[18:03:18.21] /i gi::setActiveWindow 0 -raise true
+[18:03:37.63] /# gi::executeAction dbShowTechnologyManager -in [gi::getWindows 0]
+[18:03:37.63] /i db::showManageTechnology
+[18:03:37.67] /r giWindowId 3
+[18:03:37.68] /r giWindowGeometry 350x400
+[18:03:37.68] /o 	############################################
+[18:03:37.68] /o 	--------------------------------------------
+[18:03:37.68] /o 	PDK Name................... : SAED_PDK_90
+[18:03:37.68] /o 	PDK Release Date........... : 29-Sep-2015
+[18:03:37.68] /o 	PDK Custom Designer Version : J-2014.12-2
+[18:03:37.68] /o 	--------------------------------------------
+[18:03:37.68] /o 	############################################
+[18:03:37.68] /o 
+[18:03:37.68] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[18:03:37.69] /o SAED PDK 90: Loaded callbacks
+[18:03:37.70] /o SAED PDK 90: Loaded display resources
+[18:03:37.70] /w Warning: Conflicting definitions for ConstraintDef minEnclosure were read. These constraints will not be available.
+[18:03:37.70] /w Warning: Conflicting definitions for ConstraintDef endOfLineEnclosure were read. These constraints will not be available.
+[18:03:37.70] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[18:03:37.91] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{SAED_PDK_90}} -in [gi::getWindows 3]
+[18:03:37.91] /o oa:0x24a8e6f0
+[18:03:40.15] /i gi::setActiveWindow 0
+[18:03:40.18] /i gi::setActiveWindow 0 -raise true
+[18:03:41.03] /i gi::setActiveWindow 3
+[18:03:41.08] /i gi::setActiveWindow 3 -raise true
+[18:03:42.83] /i gi::setActiveWindow 0
+[18:03:42.87] /i gi::setActiveWindow 0 -raise true
+[18:03:43.09] /i gi::setActiveWindow 3
+[18:03:43.13] /i gi::setActiveWindow 3 -raise true
+[18:03:44.28] /i gi::setActiveWindow 0
+[18:03:44.32] /i gi::setActiveWindow 0 -raise true
+[18:03:44.79] /i gi::setActiveWindow 3
+[18:03:44.82] /i gi::setActiveWindow 3 -raise true
+[18:03:45.16] /i gi::setCurrentIndex {techTechnologyManagerLibWidget} -index {mylibrary} -in [gi::getWindows 3]
+[18:03:45.19] /i gi::setItemSelection {techTechnologyManagerLibWidget} -index {{mylibrary}} -in [gi::getWindows 3]
+[18:03:45.77] /i gi::setActiveWindow 0
+[18:03:45.80] /i gi::setActiveWindow 0 -raise true
+[18:03:50.68] /i gi::setActiveWindow 3
+[18:03:50.71] /i gi::setActiveWindow 3 -raise true
+[18:03:51.26] /i gi::setCurrentIndex {techTechnologyManagerLibWidget} -index {mylibrary , Attachment} -in [gi::getWindows 3]
+[18:03:55.20] /i gi::setField {techTechnologyManagerLibWidget} -value {SAED_PDK_90} -index {mylibrary,Attachment} -in [gi::getWindows 3]
+[18:04:08.29] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[18:04:11.73] /# gi::executeAction dbShowTechnologyManager -in [gi::getWindows 0]
+[18:04:11.73] /i db::showManageTechnology
+[18:04:11.77] /r giWindowId 4
+[18:04:11.77] /r giWindowGeometry 350x400
+[18:04:11.99] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{SAED_PDK_90}} -in [gi::getWindows 4]
+[18:04:11.99] /o oa:0x24e1a760
+[18:04:15.70] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[18:04:24.85] /# gi::executeAction deRecentFile_mylibrary_inverter_schematic_Editing -in [gi::getWindows 0]
+[18:04:24.85] /a de::open mylibrary/inverter/schematic -readOnly false
+[18:04:24.98] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[18:04:25.00] /r giWindowId 5
+[18:04:25.00] /r giWindowGeometry 1088x591
+[18:04:25.65] /o oa:0x24f04d50
+[18:04:56.18] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[18:04:58.11] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[18:05:02.84] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[18:05:02.84] /i dm::showLibraryManager
+[18:05:02.88] /r giWindowId 6
+[18:05:02.89] /r giWindowGeometry 943x452+50+50
+[18:05:03.26] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[18:05:03.26] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[18:05:03.27] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[18:05:03.27] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[18:05:03.27] /o oa:0x24dd2d90
+[18:05:05.12] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 6]
+[18:05:05.20] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 6]
+[18:05:06.20] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 6]
+[18:05:06.25] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 6]
+[18:05:06.86] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 6]
+[18:05:06.97] /i gi::executeAction dmOpen -in [gi::getWindows 6]
+[18:05:07.07] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[18:05:07.10] /r giWindowId 7
+[18:05:07.10] /r giWindowGeometry 1088x591
+[18:05:41.70] /# gi::executeAction seCreateInst -in [gi::getWindows 7]
+[18:05:41.70] /i ise::createInst
+[18:05:42.47] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+257+74
+[18:05:49.64] /i gi::setField {instMasterLib} -value {SAED_PDK_90} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:05:49.96] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+257+74
+[18:06:16.30] /i gi::setField {instMasterCell} -value {pmos4t} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:06:16.62] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x597+257+74
+[18:06:22.24] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 7]
+[18:06:22.24] /i de::zoom -window 7 -factor 2.0 -center {3.1625 1.43125}
+[18:06:22.31] /o {1.09375 0.49375} {4.35625 1.9625}
+[18:06:22.40] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 7]
+[18:06:22.40] /i de::zoom -window 7 -factor 2.0 -center {3.1625 1.43125}
+[18:06:22.46] /o {2.125 0.9625} {3.7625 1.69375}
+[18:06:23.14] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 7]
+[18:06:23.14] /i de::zoom -window 7 -factor 0.5 -center {3.15625 1.43125}
+[18:06:23.21] /o {1.1 0.49375} {4.3625 1.9625}
+[18:06:26.60] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 7]
+[18:06:26.60] /i de::zoom -window 7 -factor 0.5 -center {2.925 1.45}
+[18:06:26.66] /o {-0.725 -0.45625} {5.80625 2.475}
+[18:06:27.78] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 7]
+[18:06:27.78] /i de::zoom -window 7 -factor 2.0 -center {2.89375 1.76875}
+[18:06:27.86] /o {1.08125 0.65625} {4.35 2.11875}
+[18:08:12.81] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:08:12.90] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:01.01] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:10.71] /# gi::executeAction seCreateInst -in [gi::getWindows 7]
+[18:09:10.71] /i ise::createInst
+[18:09:10.96] /o 0
+[18:09:11.62] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x597+257+74
+[18:09:13.58] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:13.67] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:19.90] /i gi::setCurrentIndex {parameters} -index {w,Prompt} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:21.32] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:22.25] /i gi::setCurrentIndex {parameters} -index {w,Prompt} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:23.67] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:09:31.88] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:38.97] /i gi::pressButton {defaults} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:09:45.17] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:09:45.36] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:09:45.55] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:09:45.73] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:11:24.75] /i gi::pressButton {help} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:11:24.80] /e Error: System exception while executing gi::pressButton: Error: WebWorks could not show a topic hise_createInst from the collection cidCustomDesigner. (HELP-024) (COMMAND-001)
+[18:11:26.38] /i gi::pressButton {help} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:11:26.42] /e Error: System exception while executing gi::pressButton: Error: WebWorks could not show a topic hise_createInst from the collection cidCustomDesigner. (HELP-024) (COMMAND-001)
+[18:11:28.72] /i gi::pressButton {help} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:11:28.77] /e Error: System exception while executing gi::pressButton: Error: WebWorks could not show a topic hise_createInst from the collection cidCustomDesigner. (HELP-024) (COMMAND-001)
+[18:11:33.42] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:12:54.13] /# gi::executeAction deSelectActive -in [gi::getWindows 7]
+[18:13:15.31] /# gi::executeAction seCreateInst -in [gi::getWindows 7]
+[18:13:15.32] /i ise::createInst
+[18:13:15.57] /o 0
+[18:13:15.86] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x597+257+74
+[18:13:17.61] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:13:17.70] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:13:25.04] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:14:28.60] /# gi::executeAction deRemovePoint -in [gi::getWindows 7]
+[18:14:28.60] /i de::removePoint {2.7 1.59375} -window 7
+[18:14:31.92] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:14:32.01] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:14:35.21] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:14:49.81] /i gi::setField {parameters} -value {0.21u} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:14:51.42] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:14:52.25] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:14:52.53] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:14:52.74] /w Warning: Nothing is bound to the '5' in the current active set. (WINDOW-015)
+[18:15:07.53] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 7]]
+[18:15:13.08] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[18:15:15.18] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[18:15:19.97] /i gi::setActiveWindow 6
+[18:15:20.01] /i gi::setActiveWindow 6 -raise true
+[18:15:20.08] /i gi::setItemSelection {views} -index {} -in [gi::getWindows 6]
+[18:15:20.19] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 6]
+[18:15:20.23] /i gi::executeAction dmOpen -in [gi::getWindows 6]
+[18:15:20.32] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[18:15:20.34] /r giWindowId 8
+[18:15:20.34] /r giWindowGeometry 1088x591
+[18:15:27.88] /# gi::executeAction seCreateInst -in [gi::getWindows 8]
+[18:15:27.88] /i ise::createInst
+[18:15:28.36] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+275+38
+[18:15:34.61] /i gi::setField {instMasterLib} -value {SAED_PDK_90} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:15:34.93] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x355+275+38
+[18:15:42.14] /i gi::setField {instMasterCell} -value {pmos4t} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:15:42.52] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x597+275+38
+[18:15:43.69] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:15:43.79] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:17:29.55] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:17:29.55] /i de::addPoint {2.80625 1.20625} -window 8
+[18:18:05.46] /i gi::setField {instMasterCell} -value {nmos4t} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:18:05.79] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x597+275+38
+[18:18:07.98] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:18:08.08] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:18:46.25] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 8]
+[18:18:46.26] /i de::zoom -window 8 -factor 2.0 -center {2.90625 0.41875}
+[18:18:46.33] /o {0.9625 -0.0125} {4.23125 1.45625}
+[18:18:55.59] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:18:55.59] /i de::addPoint {2.89375 0.34375} -window 8
+[18:18:58.29] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:19:11.33] /i db::setAttr geometry -of [gi::getFrames 8] -value 1104x583+61+23
+[18:19:20.95] /i db::setAttr geometry -of [gi::getFrames 8] -value 1109x625+61+23
+[18:19:27.99] /# gi::executeAction seSchCreateWire -in [gi::getWindows 8]
+[18:19:27.99] /i ise::createWire
+[18:19:31.27] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:19:31.27] /i de::addPoint {3.05 0.9875} -window 8
+[18:19:31.35] /i de::setCursor -point {3.0625 0.9375 }
+[18:19:33.08] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:19:33.08] /i de::addPoint {3.11875 0.575} -window 8
+[18:20:20.64] /# gi::executeAction dePropertyEditorToggle -in [gi::getWindows 8]
+[18:20:20.64] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]] -value true
+[18:20:23.82] /i gi::setItemSelection {attributes} -index {cellName,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:23.91] /i gi::setCurrentIndex {attributes} -index {cellName,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:27.82] /i gi::setItemSelection {attributes} -index {libName,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:27.91] /i gi::setCurrentIndex {attributes} -index {libName,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:28.45] /i gi::setItemSelection {attributes} -index {cellName,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:28.54] /i gi::setCurrentIndex {attributes} -index {cellName,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:29.59] /i gi::setCurrentIndex {attributes} -index {cellName,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:33.84] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:20:33.84] /i de::addPoint {3.01875 1.16875} -window 8
+[18:20:34.29] /i de::setCursor -point {3.0625 1.1875 }
+[18:20:34.36] /i de::setCursor -point {3.0625 1.125 }
+[18:20:34.43] /i de::setCursor -point {3.25 1.0625 }
+[18:20:35.94] /i gi::setField {propertiesExpand} -value {true} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:41.75] /i gi::setField {attributesExpand} -value {false} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:42.64] /i gi::setField {attributesExpand} -value {true} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:47.64] /i gi::setItemSelection {attributes} -index {viewName,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:47.72] /i gi::setCurrentIndex {attributes} -index {viewName,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:48.40] /i gi::setItemSelection {attributes} -index {cellName,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:48.49] /i gi::setCurrentIndex {attributes} -index {cellName,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:20:57.57] /i gi::setField {connectionAssignmentsExpand} -value {true} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:21:01.54] /i gi::setItemSelection {attributes} -index {viewName,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:21:01.63] /i gi::setCurrentIndex {attributes} -index {viewName,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:21:05.24] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]] -value false
+[18:21:06.17] /i de::setCursor -point {3.0625 1.125 }
+[18:21:06.73] /i de::setCursor -point {3 1.125 }
+[18:21:08.50] /# gi::executeAction seSchWireToggleJogStyle -in [gi::getWindows 8]
+[18:21:08.50] /i de::commandOption toggleJogStyle -point {3.9375 1.0625}
+[18:21:09.37] /i de::setCursor -point {3 1.125 }
+[18:21:09.61] /i de::setCursor -point {2.875 1.125 }
+[18:21:09.71] /i de::setCursor -point {2.9375 1.125 }
+[18:21:09.96] /i de::setCursor -point {3.0625 1.1875 }
+[18:21:11.02] /i de::setCursor -point {3.0625 1.0625 }
+[18:21:11.09] /i de::setCursor -point {3.0625 1.1875 }
+[18:21:11.15] /i de::setCursor -point {3 1.3125 }
+[18:21:11.94] /i de::setCursor -point {2.875 1.3125 }
+[18:21:12.05] /i de::setCursor -point {2.875 1.25 }
+[18:21:12.93] /i de::setCursor -point {2.9375 1.125 }
+[18:21:13.09] /i de::setCursor -point {2.9375 1.1875 }
+[18:21:13.86] /# gi::executeAction seSchWireToggleJogStyle -in [gi::getWindows 8]
+[18:21:13.86] /i de::commandOption toggleJogStyle -point {3 1.1875}
+[18:21:13.93] /i de::setCursor -point {3.0625 1.125 }
+[18:21:14.00] /i de::setCursor -point {3.3125 0.9375 }
+[18:21:14.55] /i de::setCursor -point {3.125 1.0625 }
+[18:21:14.75] /i de::setCursor -point {2.875 1.25 }
+[18:21:28.49] /# gi::executeAction seSchWireToggleJogStyle -in [gi::getWindows 8]
+[18:21:28.50] /i de::commandOption toggleJogStyle -point {3.125 0.5}
+[18:21:31.50] /# gi::executeAction seDelete -in [gi::getWindows 8]
+[18:21:31.50] /i ise::delete
+[18:21:39.17] /# gi::executeAction dePropertyEditorToggle -in [gi::getWindows 8]
+[18:21:39.17] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]] -value true
+[18:21:45.35] /i gi::executeAction dePropertyEditorOpenParameterDefinitions -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]]
+[18:21:45.39] /r giWindowId 9
+[18:21:45.40] /r giWindowGeometry 625x400
+[18:21:57.22] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[18:22:19.90] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 8]] -value false
+[18:22:27.23] /i gi::setActiveWindow 8
+[18:22:27.27] /i gi::setActiveWindow 8 -raise true
+[18:22:27.31] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:22:27.31] /i de::addPoint {3.11875 0.79375} -window 8
+[18:22:28.27] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:22:28.27] /i de::addPoint {3.11875 0.73125} -window 8
+[18:22:31.79] /# gi::executeAction seSchCreateWire -in [gi::getWindows 8]
+[18:22:31.79] /i ise::createWire
+[18:22:32.15] /i de::setCursor -point {3.125 1.0625 }
+[18:22:32.35] /i de::setCursor -point {3.125 1 }
+[18:22:34.79] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:22:34.79] /i de::addPoint {3.0625 0.96875} -window 8
+[18:22:36.79] /# gi::executeAction seSchWireToggleJogStyle -in [gi::getWindows 8]
+[18:22:36.79] /i de::commandOption toggleJogStyle -point {2.875 0.8125}
+[18:22:40.26] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[18:22:40.26] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[18:22:42.38] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[18:22:42.38] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[18:22:46.05] /# gi::executeAction seSchCreateWireName -in [gi::getWindows 8]
+[18:22:46.05] /i ise::createWireName
+[18:23:18.15] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:23:18.15] /i de::addPoint {3.6375 0.9375} -window 8
+[18:23:19.96] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:23:19.96] /i de::addPoint {3.13125 0.75} -window 8
+[18:23:21.32] /# gi::executeAction deDefaultCommandOption -in [gi::getWindows 8]
+[18:23:21.32] /i de::commandOption default -point {3.125 0.71875} -window 8
+[18:23:25.05] /# gi::executeAction seSchCreateWireName -in [gi::getWindows 8]
+[18:23:25.05] /i ise::createWireName
+[18:23:33.14] /# gi::executeAction seSchCreateWireName -in [gi::getWindows 8]
+[18:23:33.14] /i ise::createWireName
+[18:24:14.57] /# gi::executeAction seCreateInst -in [gi::getWindows 8]
+[18:24:14.57] /i ise::createInst
+[18:24:14.97] /o 0
+[18:24:15.55] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 355x597+275+38
+[18:24:17.69] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[18:24:19.60] /# gi::executeAction seSchCreateWire -in [gi::getWindows 8]
+[18:24:19.60] /i ise::createWire
+[18:24:23.76] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:23.76] /i de::addPoint {2.79375 1.175} -window 8
+[18:24:23.82] /i de::setCursor -point {2.75 1.1875 }
+[18:24:25.94] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:25.94] /i de::addPoint {2.43125 1.2} -window 8
+[18:24:26.15] /i de::setCursor -point {2.4375 1.125 }
+[18:24:26.76] /i de::setCursor -point {2.3125 1.1875 }
+[18:24:26.95] /i de::setCursor -point {2.4375 1.25 }
+[18:24:27.12] /i de::setCursor -point {2.375 1.25 }
+[18:24:27.18] /i de::setCursor -point {2.125 1.1875 }
+[18:24:28.70] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 8]
+[18:24:28.70] /i ise::createSchematicPin
+[18:24:32.48] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:32.48] /i de::addPoint {2.40625 1.1625} -window 8
+[18:24:32.53] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:32.88] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 8]
+[18:24:32.88] /i ise::createSchematicPin
+[18:24:33.00] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 8]
+[18:24:33.00] /i ise::createSchematicPin
+[18:24:36.18] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:36.18] /i de::addPoint {2.41875 1.1875} -window 8
+[18:24:36.22] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:38.10] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:38.10] /i de::addPoint {2.45625 1.18125} -window 8
+[18:24:38.14] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:41.12] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:41.12] /i de::addPoint {2.3875 1.18125} -window 8
+[18:24:41.16] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:41.77] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:41.77] /i de::addPoint {2.43125 1.18125} -window 8
+[18:24:41.81] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:42.19] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:42.19] /i de::addPoint {2.45 1.18125} -window 8
+[18:24:42.23] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:44.00] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:44.00] /i de::addPoint {2.5 1.1625} -window 8
+[18:24:44.04] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:46.41] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:46.41] /i de::addPoint {2.4625 1.2} -window 8
+[18:24:46.45] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:50.42] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:50.42] /i de::addPoint {2.4375 1.19375} -window 8
+[18:24:50.46] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:51.12] /# gi::executeAction seOptionsRotate90 -in [gi::getWindows 8]
+[18:24:51.12] /i de::commandOption R90
+[18:24:52.50] /# gi::executeAction seOptionsRotate90 -in [gi::getWindows 8]
+[18:24:52.50] /i de::commandOption R90
+[18:24:52.97] /# gi::executeAction seOptionsRotate90 -in [gi::getWindows 8]
+[18:24:52.97] /i de::commandOption R90
+[18:24:53.43] /# gi::executeAction seOptionsRotate90 -in [gi::getWindows 8]
+[18:24:53.43] /i de::commandOption R90
+[18:24:53.90] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:53.90] /i de::addPoint {2.4375 1.1625} -window 8
+[18:24:53.94] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:54.87] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:54.87] /i de::addPoint {2.8 1.16875} -window 8
+[18:24:54.91] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:56.51] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:56.51] /i de::addPoint {2.43125 1.18125} -window 8
+[18:24:56.55] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:56.68] /# gi::executeAction deCompleteShape -in [gi::getWindows 8]
+[18:24:56.68] /i de::completeShape -window 8
+[18:24:56.77] /w Warning: Nothing is bound to the 'Button1-Triple' in the current active set. (WINDOW-015)
+[18:24:57.30] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:57.30] /i de::addPoint {2.36875 1.1875} -window 8
+[18:24:57.34] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:57.45] /# gi::executeAction deCompleteShape -in [gi::getWindows 8]
+[18:24:57.45] /i de::completeShape -window 8
+[18:24:57.77] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:24:57.77] /i de::addPoint {2.45625 1.1875} -window 8
+[18:24:57.81] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:24:57.91] /# gi::executeAction deCompleteShape -in [gi::getWindows 8]
+[18:24:57.91] /i de::completeShape -window 8
+[18:24:58.81] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 8]
+[18:24:58.81] /i ise::createSchematicPin
+[18:25:00.60] /# gi::executeAction deCellviewFromCellview -in [gi::getWindows 8]
+[18:25:00.60] /i db::showCellViewFromCellView -src [db::getAttr container -of [db::getAttr editFile -of [db::getNext [de::getContexts -window 8]]]] 
+[18:25:00.80] /o oa:0x252d25f0
+[18:25:01.11] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x353+316+134
+[18:25:03.85] /i gi::pressButton {cancel} -in [gi::getDialogs {dbCellViewFromCellView}]
+[18:25:04.27] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x308+316+134
+[18:25:27.50] /i gi::executeAction deSaveDesign -in [gi::getWindows 8]
+[18:25:27.54] /m Information: Saving design 'mylibrary inverter schematic'. (DESIGN_WINDOW-004)
+[18:25:30.03] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:25:30.03] /i de::addPoint {2.45 1.18125} -window 8
+[18:25:30.08] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:25:31.52] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:25:31.52] /i de::addPoint {2.44375 1.2} -window 8
+[18:25:31.56] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:26:03.06] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:03.06] /i de::addPoint {2.44375 1.175} -window 8
+[18:26:03.10] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:26:06.09] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:06.09] /i de::addPoint {2.45 1.1875} -window 8
+[18:26:06.13] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:26:06.82] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:06.82] /i de::addPoint {2.40625 1.19375} -window 8
+[18:26:06.86] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:26:08.89] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:08.89] /i de::addPoint {2.44375 1.1875} -window 8
+[18:26:08.93] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:26:09.09] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:09.09] /i de::addPoint {2.44375 1.1875} -window 8
+[18:26:09.13] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:26:09.18] /# gi::executeAction deCompleteShape -in [gi::getWindows 8]
+[18:26:09.18] /i de::completeShape -window 8
+[18:26:10.26] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:10.26] /i de::addPoint {2.425 1.2} -window 8
+[18:26:10.30] /w Warning: No wiring objects were found at this location. (SE-928)
+[18:26:10.36] /# gi::executeAction deCompleteShape -in [gi::getWindows 8]
+[18:26:10.36] /i de::completeShape -window 8
+[18:26:12.14] /# gi::executeAction seSchCreateWire -in [gi::getWindows 8]
+[18:26:12.14] /i ise::createWire
+[18:26:13.62] /i de::setCursor -point {2.375 1.125 }
+[18:26:13.68] /i de::setCursor -point {2.375 1.1875 }
+[18:26:15.67] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:15.67] /i de::addPoint {2.4375 1.18125} -window 8
+[18:26:17.69] /# gi::executeAction seSchCreateSchematicPin -in [gi::getWindows 8]
+[18:26:17.69] /i ise::createSchematicPin
+[18:26:20.33] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[18:26:20.33] /i de::addPoint {2.44375 1.18125} -window 8
+[18:26:27.55] /# gi::executeAction seSchCreateWireName -in [gi::getWindows 8]
+[18:26:27.55] /i ise::createWireName
+[18:26:36.60] /i gi::setField {wireNameExpand} -value {true} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[18:26:37.14] /i gi::setField {wireNameExpand} -value {false} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 8]]
+[18:27:07.69] /i gi::executeAction deSaveDesign -in [gi::getWindows 8]
+[18:27:07.74] /m Information: Saving design 'mylibrary inverter schematic'. (DESIGN_WINDOW-004)
+[18:27:34.39] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[18:27:36.62] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[18:27:41.02] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[18:27:44.25] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[18:27:44.63] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+445+179
+[18:27:46.36] /r giDialog gi::setField {saveState} -value {true} -in [gi::getDialogs {deExitDialog}]
+[18:27:52.44] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[18:27:52.88] /o Shutdown time: Thu Jan 20 18:27:52 2022
+[18:27:52.88] /o Elapsed session real time: 34.55 minutes
+[18:27:52.88] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/cdesigner.log

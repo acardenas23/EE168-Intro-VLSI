@@ -1,0 +1,86 @@
+[19:50:50.77] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Thu Jan 20 19:50:43 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[19:50:52.06] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:50:52.06] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:50:52.06] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:50:52.06] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:51:41.97] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[19:51:41.97] /i dm::showLibraryManager
+[19:51:41.99] /r giWindowId 1
+[19:51:41.99] /r giWindowGeometry 660x600+50+50
+[19:51:42.50] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:51:42.50] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:51:42.50] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:51:42.50] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:51:42.51] /o oa:0x23c33de0
+[19:51:45.19] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 1]
+[19:51:45.24] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[19:51:46.81] /i gi::setCurrentIndex {cells} -index {inverter_testbench} -in [gi::getWindows 1]
+[19:51:46.86] /i gi::setItemSelection {cells} -index {inverter_testbench} -in [gi::getWindows 1]
+[19:51:49.21] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[19:51:49.33] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[19:51:49.42] /o 	############################################
+[19:51:49.42] /o 	--------------------------------------------
+[19:51:49.42] /o 	PDK Name................... : SAED_PDK_90
+[19:51:49.42] /o 	PDK Release Date........... : 29-Sep-2015
+[19:51:49.42] /o 	PDK Custom Designer Version : J-2014.12-2
+[19:51:49.42] /o 	--------------------------------------------
+[19:51:49.42] /o 	############################################
+[19:51:49.42] /o 
+[19:51:49.42] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[19:51:49.43] /o SAED PDK 90: Loaded callbacks
+[19:51:49.43] /o SAED PDK 90: Loaded display resources
+[19:51:49.50] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[19:51:49.58] /r giWindowId 2
+[19:51:49.58] /r giWindowGeometry 1088x591
+[19:51:57.11] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[19:51:57.11] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {1.74375 1.3} -index 0 -intent none] -replace true
+[19:51:57.15] /o oa:0x265f9be0
+[19:52:01.84] /i db::setAttr geometry -of [gi::getFrames 2] -value 1246x634+7+23
+[19:52:03.48] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 2]
+[19:52:03.48] /i de::zoom -window 2 -factor 2.0 -center {1.98125 1.1}
+[19:52:03.55] /o {0.99375 0.43125} {4.25625 1.81875}
+[19:52:09.75] /# gi::executeAction dePropertyEditorToggle -in [gi::getWindows 2]
+[19:52:09.75] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]] -value true
+[19:52:15.42] /i gi::setItemSelection {parameters} -index {vdc,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[19:52:15.51] /i gi::setCurrentIndex {parameters} -index {vdc,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[19:52:48.72] /i gi::setField {propertiesExpand} -value {true} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[19:52:50.62] /i gi::setField {connectionAssignmentsExpand} -value {true} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[19:52:55.93] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]] -value false
+[19:52:57.17] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[19:52:57.17] /i de::cycleActiveFigure [gi::getWindows 2] -direction next
+[19:52:57.21] /o oa:0x25b1fdd0
+[19:52:57.21] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {1.7125 1.25} -index 0 -intent none] -replace true
+[19:52:57.25] /o oa:0x230769c0
+[19:53:00.09] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[19:53:00.09] /i de::cycleActiveFigure [gi::getWindows 2] -direction next
+[19:53:00.13] /o oa:0x25bc7ab0
+[19:53:00.13] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {1.7125 1.34375} -index 0 -intent none] -replace true
+[19:53:00.16] /o oa:0x22c20790
+[19:53:00.64] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[19:53:00.64] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {1.95625 1.39375} -index 0 -intent none] -replace true
+[19:53:00.68] /o oa:0x2601a810
+[19:53:02.00] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[19:53:02.00] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {1.74375 1.2875} -index 0 -intent none] -replace true
+[19:53:02.03] /o oa:0x264d46b0
+[19:53:06.33] /# gi::executeAction dePropertyEditorToggle -in [gi::getWindows 2]
+[19:53:06.33] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]] -value true
+[19:53:11.89] /i gi::setItemSelection {parameters} -index {vdc,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[19:53:11.97] /i gi::setCurrentIndex {parameters} -index {vdc,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[19:53:16.62] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[19:53:18.65] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[19:53:24.51] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[19:53:27.11] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[19:53:27.49] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+445+179
+[19:53:29.25] /r giDialog gi::setField {saveState} -value {true} -in [gi::getDialogs {deExitDialog}]
+[19:53:29.90] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[19:53:30.22] /o Shutdown time: Thu Jan 20 19:53:30 2022
+[19:53:30.22] /o Elapsed session real time: 2.65 minutes
+[19:53:30.22] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/cdesigner.log

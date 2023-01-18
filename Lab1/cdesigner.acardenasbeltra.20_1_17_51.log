@@ -1,0 +1,54 @@
+[17:41:35.76] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Thu Jan 20 17:41:29 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[17:42:09.61] /i gi::setActiveTab {ConsoleTabs} -tabName {ErrorTab} -in [gi::getWindows 0]
+[17:42:10.38] /i gi::setActiveTab {ConsoleTabs} -tabName {HistoryTab} -in [gi::getWindows 0]
+[17:42:11.34] /i gi::setActiveTab {ConsoleTabs} -tabName {LogTab} -in [gi::getWindows 0]
+[17:42:55.68] /# gi::executeAction giCustomize -in [gi::getWindows 0]
+[17:42:55.68] /i gi::showCustomizeWindow 0
+[17:42:56.07] /i gi::setActiveDialog [gi::getDialogs {giCustomizeWindow} -parent [gi::getWindows 0]]
+[17:43:08.38] /i gi::pressButton {close} -in [gi::getDialogs {giCustomizeWindow} -parent [gi::getWindows 0]]
+[17:45:35.73] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[17:45:35.73] /i dm::showLibraryManager
+[17:45:35.73] /r giWindowId 1
+[17:45:35.73] /r giWindowGeometry 660x600+50+50
+[17:45:36.07] /o oa:0x25466e60
+[17:45:47.66] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 1]
+[17:45:47.74] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 1]
+[17:46:25.03] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 1]
+[17:46:25.03] /i dm::showNewLibrary -parent 1
+[17:46:25.27] /o oa:0x254db640
+[17:46:25.67] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]] -value 434x493+153+64
+[17:47:00.99] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[17:47:02.52] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 1]
+[17:47:35.27] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[17:47:44.62] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 0]
+[17:47:44.62] /i dm::showNewLibrary -parent 0
+[17:47:44.77] /o oa:0x23915e80
+[17:47:45.04] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary}] -value 434x493+413+42
+[17:48:11.81] /i gi::pressButton {defaults} -in [gi::getDialogs {dmNewLibrary}]
+[17:48:21.45] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmNewLibrary}]
+[17:48:26.99] /r giFileDialog reject ee168
+[17:48:30.34] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewLibrary}]
+[17:48:33.68] /i gi::setActiveWindow 0
+[17:48:33.72] /i gi::setActiveWindow 0 -raise true
+[17:48:33.79] /i gi::setActiveTab {ConsoleTabs} -tabName {ErrorTab} -in [gi::getWindows 0]
+[17:48:35.07] /i gi::setActiveTab {ConsoleTabs} -tabName {HistoryTab} -in [gi::getWindows 0]
+[17:48:37.77] /i gi::setActiveTab {ConsoleTabs} -tabName {LogTab} -in [gi::getWindows 0]
+[17:49:00.08] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 0]
+[17:49:00.08] /i dm::showNewLibrary -parent 0
+[17:49:00.23] /o oa:0x25501970
+[17:49:00.49] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary}] -value 434x493+413+42
+[17:51:32.38] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewLibrary}]
+[17:51:40.03] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[17:51:40.41] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+445+179
+[17:51:42.53] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[17:51:42.99] /o Shutdown time: Thu Jan 20 17:51:42 2022
+[17:51:42.99] /o Elapsed session real time: 10.11 minutes
+[17:51:42.99] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/cdesigner.log
