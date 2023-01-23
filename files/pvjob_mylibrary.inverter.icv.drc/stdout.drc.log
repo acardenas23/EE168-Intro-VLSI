@@ -1,0 +1,104 @@
+
+
+                                 IC Validator 
+
+         Version O-2018.12-SP2-9 for linux64 - Nov 08, 2019 cl#5147677
+
+                    Copyright (c) 1996 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i mylibrary -c inverter -oa_view layout -oa_lib_defs /home/eemaj/acardenasbeltra/lib.defs -oa_layer_map /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.drc/inverter.drc.cdesigner.rc -vue /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+
+
+
+       ***************************************************
+       *     NOTICE: SOFTWARE EXPIRES MIDNIGHT TODAY.    *
+       ***************************************************
+
+
+
+
+Parsing runset "/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs"
+
+Loaded runset from cache: /home/eemaj/acardenasbeltra/.icvrscache/e8a8dfe2c688010af6d0c1f6b28b6d31-9357B185-FFB8-4D2F-BF43-3774DFE2ECEB-bender.engr.ucr.edu-208146.rscache
+Cached Runset Compile Time=0:00:03 User=3.22 Sys=0.07 Mem=441.012
+
+
+
+                                  ICV_Master 
+
+         Version O-2018.12-SP2-9 for linux64 - Nov 08, 2019 cl#5147677
+
+                    Copyright (c) 1996 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Called as: icv -f openaccess -i mylibrary -c inverter -oa_view layout -oa_lib_defs /home/eemaj/acardenasbeltra/lib.defs -oa_layer_map /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.drc/inverter.drc.cdesigner.rc -vue /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+ 
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.00 Mem=441.012
+
+
+Checked out necessary DP licenses.
+Host startup done: 2 successes, 0 failures.
+	bender.engr.ucr.edu: 2 total cores, maximum 2 commands in parallel.
+Selecting "bender.engr.ucr.edu" as Primary host
+
+System Startup Time=0:00:01 User=0.01 Sys=0.03 Mem=441.012
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.drc/run_details/inverter.sum
+    /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.drc/run_details/rules.drc.9m_saed90_icv.drc.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:03
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating inverter.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.502
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=3.125
+
+-------------
+
+IC Validator Run: Time=0:00:07
+
+IC Validator Machine Memory Report
+bender.engr.ucr.edu : Average = 7.92(Mb), Peak = 146(Mb)
+
+Overall Disk Usage Disk=5.172
+Overall engine Time=0:00:07 Highest command Mem=146.404 
+
+Overall Master Mem=614.336
+IC Validator is done.

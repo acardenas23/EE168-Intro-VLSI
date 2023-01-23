@@ -1,0 +1,49 @@
+[19:53:24.33] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version S-2021.09-SP1-1 for linux64 - Jan 12, 2022 
+              /c 
+              /c                     Copyright (c) 2004 - 2022 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 7215386 compiled on Wed Jan 12 13:35:49 2022 for CentOS64 7.3
+              /c Invocation: /usr/local/synopsys/customcompiler/S-2021.09-SP1-1/linux64/platform/bin/cdesigner
+              /c Execution time: Sat Feb  5 19:53:03 2022
+              /c Host: bender.engr.ucr.edu
+              /c Working directory: /home/eemaj/acardenasbeltra/ee168
+              /c 
+[19:53:26.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:53:26.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[19:53:26.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:53:26.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:53:26.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[19:53:26.66] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[19:53:26.74] /r giShowFrameTabs true
+[19:53:26.74] /r giWindowId 1
+[19:53:26.74] /r giWindowGeometry 1040x800
+[19:53:27.60] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+1928+115
+[19:53:29.81] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+63+78
+[19:53:30.32] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+63+79
+[19:53:39.18] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+61+37
+[19:53:40.91] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+64+64
+[19:53:41.38] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+64+65
+[19:53:43.94] /i exit
+[19:53:44.01] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[19:53:44.24] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]] -value 419x207+365+322
+[19:53:46.10] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[19:53:46.36] /o Shutdown time: Sat Feb  5 19:53:46 2022
+[19:53:46.36] /o Elapsed session real time: 0.6 minutes
+[19:53:46.36] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/synopsys_custom/logs/ccompiler.acardenasbeltra.2022_2_5_195303_46478.log

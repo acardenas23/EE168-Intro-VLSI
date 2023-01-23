@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-SP1-1-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLPEEnableLPEJob" value="true"/>
+	<pref name="xtLPEEnableLVSJob" value="false"/>
+	<pref name="xtLPELayLCV" value="mylibrary/inverter/layout"/>
+	<pref name="xtLPEStarCornerFile" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/inverter.starrc.lpe/corners_file"/>
+	<pref name="xtLPEStarCouplingMultiplier" value="1"/>
+	<pref name="xtLPEStarExtraGeometryInfo" value="NODE"/>
+	<pref name="xtLPEStarHnNetlistSpiceType" value="{n12 X} {p12 X} {n12_lvt X} {p12_lvt X} {n12_hvt X} {p12_hvt X} {n25 X} {p25 X} {n33 X} {p33 X}"/>
+	<pref name="xtLPEStarIgnoreCapacitance" value="NONE"/>
+	<pref name="xtLPEStarMagnifyDeviceParams" value="NO"/>
+	<pref name="xtLPEStarNetlistNodeSection" value="YES"/>
+	<pref name="xtLPEStarNetlistTailComments" value="YES"/>
+	<pref name="xtLPEStarOACellName" value="inverter"/>
+	<pref name="xtLPEStarOADeviceMappingFile" value="/usr/local/synopsys/pdk/SAED_PDK90nm/starrcxt/device_map"/>
+	<pref name="xtLPEStarOALibName" value="mylibrary"/>
+	<pref name="xtLPEStarOAPortAnnotationView" value="//"/>
+	<pref name="xtLPEStarOAPropertyAnnotationView" value="//"/>
+	<pref name="xtLPEStarOutputRunset" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/inverter.starrc.lpe/saed90nm_1p9m_star_nominal.custom_compiler.cmd"/>
+	<pref name="xtLPEStarReducerFile" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/inverter.starrc.lpe/inverter.SPF_Reducer"/>
+	<pref name="xtLPEStarSkipCellList" value="!*"/>
+	<pref name="xtLPEStarTranslateRetainBulkLayers" value="YES"/>
+	<pref name="xtLPETool" value="StarRC"/>
+	<pref name="xtStarCaseSensitive" value="false"/>
+	<pref name="xtStarHierarchicalSeparator" value="|"/>
+	<pref name="xtStarICVRunsetReportFile" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/pex_runset_report"/>
+	<pref name="xtStarNetlistGroundNodeName" value="VSS"/>
+	<pref name="xtStarOALayerMappingFile" value="/usr/local/synopsys/pdk/SAED_PDK90nm/starrcxt/output_layer_map"/>
+	<pref name="xtStarReduction" value="NO"/>
+	<pref name="xtStarRemoveFloatingNets" value="false"/>
+	<pref name="xtStarSpiceSubcktFile" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.icv.sp"/>
+	<pref name="xtStarTcadGrdFile" value="/usr/local/synopsys/pdk/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd"/>
+	<pref name="xtStarXref" value="YES"/>
+</preferences>
+

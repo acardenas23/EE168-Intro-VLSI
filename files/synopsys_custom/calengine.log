@@ -1,0 +1,18 @@
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 455.83MB -*-
+  -*- CPU Time :     0.25s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 458.79MB -*-
+  -*- CPU Time :     0.27s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 458.79MB -*-
+  -*- CPU Time :     0.28s -*-
+sx_set_data_directory {/home/eemaj/acardenasbeltra/simulation/mylibrary,inverter_testbench,config/history_1/simulation/default/PrimeSimSPICE/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 459.19MB -*-
+  -*- CPU Time :     0.28s -*-
+sx_exit

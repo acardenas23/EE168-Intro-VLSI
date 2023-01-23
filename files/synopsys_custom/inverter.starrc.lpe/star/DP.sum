@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME        |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Layers              Elp=00:00:00 Cpu=00:00:00 Mem=425.1  |Feb  5 21:08:36 |bender.engr.ucr.edu
+CPU_01 |*Models              Elp=00:00:00 Cpu=00:00:00 Mem=425.1  |Feb  5 21:08:36 |bender.engr.ucr.edu
+CPU_01 |*HN                  Elp=00:00:00 Cpu=00:00:00 Mem=441.1  |Feb  5 21:08:36 |bender.engr.ucr.edu
+CPU_01 |*XrefHN              Elp=00:00:00 Cpu=00:00:00 Mem=195    |Feb  5 21:08:36 |bender.engr.ucr.edu
+CPU_01 |*Cells               Elp=00:00:01 Cpu=00:00:00 Mem=425.1  |Feb  5 21:08:37 |bender.engr.ucr.edu
+CPU_01 |*Translate           Elp=00:00:00 Cpu=00:00:00 Mem=190.8  |Feb  5 21:08:37 |bender.engr.ucr.edu
+CPU_01 |*xTract              Elp=00:00:00 Cpu=00:00:00 Mem=190.6  |Feb  5 21:08:37 |bender.engr.ucr.edu
+CPU_01 |*xTract              Elp=00:00:00 Cpu=00:00:00 Mem=272.6  |Feb  5 21:08:37 |bender.engr.ucr.edu
+CPU_01 |*xTractPP            Elp=00:00:00 Cpu=00:00:00 Mem=192.5  |Feb  5 21:08:38 |bender.engr.ucr.edu
+CPU_01 |*ReportViolations    Elp=00:00:00 Cpu=00:00:00 Mem=190.5  |Feb  5 21:08:38 |bender.engr.ucr.edu
+CPU_01 |*Netlist             Elp=00:00:00 Cpu=00:00:00 Mem=449.2  |Feb  5 21:08:38 |bender.engr.ucr.edu
+----------------------------------------------------------------------------------------------
+Start Time: Sat Feb  5 21:08:36 2022
+End Time: Sat Feb  5 21:08:38 2022
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:00:02  Cpu=00:00:00
+PreXtraction:    Elp=00:00:01  Cpu=00:00:00
+Xtraction:       Elp=00:00:00  Cpu=00:00:00
+PostXtraction:   Elp=00:00:01  Cpu=00:00:00
+----------------------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Feb  5 21:04:04 2022-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module viewSearchList="auCdl schematic symbol" timestamp="866" isSubcircuit="1" viewStopList="auCdl" contextID="switched: mylibrary inverter schematic vl: auCdl schematic symbol sl: auCdl">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="1"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="520"/>
+<PortOrder><![CDATA[VDDVINVOUTVSS]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

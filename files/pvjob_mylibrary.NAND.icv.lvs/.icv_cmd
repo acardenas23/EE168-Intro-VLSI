@@ -1,0 +1,8 @@
+openaccess mylibrary layout icv SPICE SPICE NAND NAND /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map /home/eemaj/acardenasbeltra/lib.defs /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.lvs.cdesigner.rc -vue -stc -sf -sf -rc -quiet=0 -oa_view -oa_lib_defs -oa_layer_map -i -f -c 
+schematic=/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.cdesigner.sp
+ICV_HOME_DIR=/usr/local/synopsys/icvalidator/O-2018.12-SP2-9
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.cdesigner.sp -globalNets VDD VDD12 VDD22 -mprop -cell NAND -dupCell USE_MULTIPLE -sp-ndbConnect -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22  -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log  -outName /.netlist_database_sch100 -outType ndb -ndb-noOrgname -ndb-micron
+NAND
+/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/run_details
+Complete

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Feb  6 17:24:32 2022-->
+<file-format name="stateCategory" version="1.0">
+ <object type="saMixedSignalOptions" name="mixedSignalOptions" version="1">
+  <collection name="a2dInterfaceElements"/>
+  <attribute type="giString" name="busFormat" value="[%d]"/>
+  <attribute type="giString" name="connectModulesInstallDirFilePatterns" value=""/>
+  <attribute type="giString" name="connectModulesUserDir" value=""/>
+  <attribute type="giString" name="connectModulesUserDirFilePatterns" value=""/>
+  <collection name="connectRuleElements"/>
+  <attribute type="giString" name="connectRulesInstallDirFilePatterns" value=""/>
+  <attribute type="giString" name="connectRulesUserDirFilePatterns" value=""/>
+  <collection name="connectionModules"/>
+  <collection name="connectionRules"/>
+  <collection name="d2aInterfaceElements"/>
+  <attribute type="giString" name="defaultNetDiscipline" value=""/>
+  <attribute type="giString" name="defaultResistanceMapFile" value=""/>
+  <attribute type="saDisciplineResolution" name="disciplineResolution" value="basic"/>
+  <collection name="e2nInterfaceElements"/>
+  <collection name="e2rInterfaceElements"/>
+  <attribute type="giString" name="existingControlFile" value=""/>
+  <attribute type="giString" name="extraOptions" value=""/>
+  <attribute type="giString" name="extraOptionsTop" value=""/>
+  <attribute type="giString" name="extraOptionsUcli" value=""/>
+  <attribute type="giString" name="extraOptionsUcliTop" value=""/>
+  <attribute type="saMixedSignalFlow" name="flowType" value="cosim"/>
+  <collection name="forceDigitalNets"/>
+  <attribute type="giBoolean" name="ieReportAMS" value="0"/>
+  <attribute type="giBoolean" name="ieReportActivity" value="0"/>
+  <attribute type="giBoolean" name="mviewVlogNoPortSwap" value="0"/>
+  <collection name="n2eInterfaceElements"/>
+  <collection name="nodeResistanceOverrides"/>
+  <collection name="r2eInterfaceElements"/>
+  <collection name="resistanceMapConfigs"/>
+  <attribute type="giBoolean" name="resolveXInstPrefix" value="0"/>
+  <attribute type="giBoolean" name="spicePortOrderAsVlog" value="1"/>
+  <attribute type="giString" name="spiceTopName" value=""/>
+  <attribute type="giBoolean" name="useExistingControlFile" value="0"/>
+ </object>
+</file-format>

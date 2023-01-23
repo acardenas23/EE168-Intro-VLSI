@@ -1,0 +1,130 @@
+                               RESULTS: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+         Version O-2018.12-SP2-9 for linux64 - Nov 08, 2019 cl#5147677
+
+                    Copyright (c) 1996 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i mylibrary -c NAND -oa_view layout -oa_lib_defs /home/eemaj/acardenasbeltra/lib.defs -oa_layer_map /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc/NAND.drc.cdesigner.rc -vue /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        acardenasbeltra
+Layout format:    OPENACCESS
+Input file name:  mylibrary
+Top cell name:    NAND
+Time started:     2022/01/26 11:33:10AM
+Time ended:       2022/01/26 11:33:17AM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+155 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to NAND.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 29
+ Empty Utilized Assign Layers = 22
+ Non-Empty Utilized Assign Layers = 7
+Pruned Assign Layers = 42
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 10000000
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables (BETA report, subject to change)
+
+HOME = "/home/eemaj/acardenasbeltra"
+ICV_HOME_DIR = "/usr/local/synopsys/icvalidator/O-2018.12-SP2-9"
+PATH = "/usr/local/synopsys/customdesigner/J-2014.12-SP2-2/bin:/usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/bin:/usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/PyCellStudio/plat_linux_gcc472_64/3rd/bin:/usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/PyCellStudio/plat_linux_gcc472_64/bin:/usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/PyCellStudio/bin:/usr/local/anaconda2/bin:/opt/nvidia/hpc_sdk/Linux_x86_64/21.9/compilers/bin:/usr/local/cuda/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/cadence/IC617/bin:/usr/local/cadence/IC617/tools/bin:/usr/local/cadence/IC617/tools/dfII/bin:/usr/local/cadence/IC617/tools/cdsdoc/bin:/usr/local/cadence/IC617/tools/jre/bin:/usr/local/cadence/MMSIM151/bin:/usr/local/cadence/MMSIM151/tools/dfII/bin:/usr/local/cadence/MMSIM151/tools/bin:/usr/local/cadence/MMSIM151/tools/cdsdoc/bin:/usr/local/cadence/MMSIM151/tools/jre/bin:/usr/local/cadence/ASSURA41/tools/assura/bin:/usr/local/cadence/ASSURA41/tools/bin:/usr/local/cadence/EXT161/bin:/usr/local/cadence/EXT161/tools/bin:/usr/local/cadence/EXT161/tools/dfII/bin:/usr/local/cadence/EXT161/tools/cdsdoc/bin:/usr/local/cadence/EXT161/tools/jre/bin:/usr/local/synopsys/installer:/usr/local/synopsys/hspice/K-2015.06-SP2/hspice/bin:/usr/local/synopsys/icc2/Q-2019.12-SP1/bin:/usr/local/synopsys/icc/Q-2019.12-SP1/bin:/usr/local/synopsys/starrc/K-2015.12/bin:/usr/local/synopsys/icvalidator/O-2018.12-SP2-9/bin:/usr/local/synopsys/icvalidator/O-2018.12-SP2-9/bin/LINUX64_L26el:/usr/local/synopsys/icc/K-2015.06-SP4/bin:/usr/local/synopsys/customdesigner/J-2014.12-SP2-2/bin:/usr/local/synopsys/pts/L-2016.06-SP3-1/bin:/usr/local/synopsys/syn/K-2015.06-SP4/bin:/usr/local/synopsys/cx/K-2015.06-SP2/bin:/usr/local/synopsys/sentaurus/K_2015.06-SP2/bin:/usr/local/synopsys/hercules/B-2008.09-SP5-HF4/bin:/usr/local/synopsys/vcs/K-2015.09-SP1-1/bin:/usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/bin:/usr/local/synopsys/primerail/M-2016.12-SP2/bin:/usr/bin/:/usr/ucb:/usr/bsd:/usr/sbin:/inst/bin:/usr/local/bin/X11:/usr/local/bin:/usr/openwin/bin:/usr/etc:/bin:/usr/bin/X11:/sbin:/usr/X11R6/bin:/home/eemaj/acardenasbeltra/bin"
+SNPSLMD_LICENSE_FILE = "27000@synopsys.engr.ucr.edu"
+USER = "acardenasbeltra"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables (BETA report, subject to change)
+
+0 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ bender.engr.ucr.edu (2/48)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz
+   CPU:   48 cpu 2200 MHz
+   Cores: 24 HT
+   RAM:   257 Gb
+   Swap:  4 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:07
+Peak Single Command Memory = 146.342
+Peak Disk Usage = 5.172
+
+Distributed Host Memory Usage
+ bender.engr.ucr.edu (2/48)  ....  Average=7.14 Mb, Peak=146 Mb / 257 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

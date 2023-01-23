@@ -1,0 +1,62 @@
+
+                                  PYDB_Server 
+
+         Version O-2018.12-SP2-9 for linux64 - Nov 08, 2019 cl#5147677
+
+                    Copyright (c) 2007 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/TOPCELLNAME_err/PYDB_NAND
+Listening for connections on port 8308
+PYDB_Server Started on host bender.engr.ucr.edu, Wed 01/26/2022 11:33:33
+Client bender.engr.ucr.edu(156536):12 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client bender.engr.ucr.edu(156584):20 connected (2 total clients)
+Client bender.engr.ucr.edu(156590):21 connected (3 total clients)
+Client bender.engr.ucr.edu(156590):21 connection closed
+Client bender.engr.ucr.edu(156590):21 disconnected (2 clients remain)
+Client bender.engr.ucr.edu(156590):21 connected (3 total clients)
+Client bender.engr.ucr.edu(156590):21 connection closed
+Client bender.engr.ucr.edu(156590):21 disconnected (2 clients remain)
+Client bender.engr.ucr.edu(156584):20 connection closed
+Client bender.engr.ucr.edu(156584):20 disconnected (1 client remains)
+Generating /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.502
+Shutdown requested by client bender.engr.ucr.edu(156536):12
+0 clients remain connected
+Client bender.engr.ucr.edu(156536):12 connection closed
+Overall server Time=0:00:04  User=0.02 Sys=0.02 Mem=0.502 SQLite=6.528 Unpooled=0.000
+
+                                  PYDB_Server 
+
+         Version O-2018.12-SP2-9 for linux64 - Nov 08, 2019 cl#5147677
+
+                    Copyright (c) 2007 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8767
+PYDB_Server Started on host bender.engr.ucr.edu, Wed 01/26/2022 11:33:43
+Client bender.engr.ucr.edu(156808):6 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Shutdown requested by client bender.engr.ucr.edu(156808):6
+0 clients remain connected
+Client bender.engr.ucr.edu(156808):6 connection closed
+Overall server Time=0:02:49  User=0.01 Sys=0.01 Mem=0.392 SQLite=6.465 Unpooled=0.000

@@ -1,0 +1,5 @@
+ ** SX started using preference settings in '/tmp/tmp_sae_spxrc_Bu10T4'
+sx_set_data_directory {/home/eemaj/acardenasbeltra/simulation/mylibrary,inverter_testbench,config/history_1/simulation/default/PrimeSimSPICE/nominal/results}
+sx_save_preference {/home/eemaj/acardenasbeltra/ee168/synopsys_custom/.spxrc}
+sx_save_preference {/home/eemaj/acardenasbeltra/ee168/synopsys_custom/.spxrc}
+sx_exit

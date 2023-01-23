@@ -1,0 +1,52 @@
+<preferences>
+<preference name="nlCDLBusStyle" value="&lt;>"/>
+<preference name="nlCDLCompatiblePortOrder" value="true"/>
+<preference name="nlCDLErrorOnTerminalShort" value="false"/>
+<preference name="nlCDLGenerateEmptySubckts" value="false"/>
+<preference name="nlCDLGenerateSubcktInTopModule" value="true"/>
+<preference name="nlCDLGlobalNets" value=""/>
+<preference name="nlCDLIncludeCDLFile" value="false"/>
+<preference name="nlCDLIncludeCDLNetlistFile" value="false"/>
+<preference name="nlCDLIncludeFiles" value=""/>
+<preference name="nlCDLIsCaseSensitive" value="Sensitive"/>
+<preference name="nlCDLPrependFirstChar" value="always"/>
+<preference name="nlCDLPrintLDD" value="true"/>
+<preference name="nlCDLPrintMFactor" value="true"/>
+<preference name="nlCDLPromoteConnectDefsAtTop" value="true"/>
+<preference name="nlCDLRemoveBangs" value="false"/>
+<preference name="nlCDLScalarizeBitOrder" value="autoAscending"/>
+<preference name="nlCDLScale" value="meter"/>
+<preference name="nlCDLShortLVSIgnoreDevices" value="true"/>
+<preference name="nlCDLShortNames" value="lxRemoveDevice lvsRemoveDevice"/>
+<preference name="nlCDLShortPreferredOrder" value="descending"/>
+<preference name="nlCDLShortPropNames" value="lvsIgnore"/>
+<preference name="nlCDLUseSingleQuote" value="true"/>
+<preference name="nlCDLWriteParamDefaults" value="false"/>
+<preference name="nlCdlPrintLDD" value="true"/>
+<preference name="nlCheckDesign" value="timestamp"/>
+<preference name="nlCheckOutdatedDesignsSeverity" value="warning"/>
+<preference name="nlConnDefDefaultsAsGlobals" value="false"/>
+<preference name="nlEnableVirtualTerminals" value="true"/>
+<preference name="nlErrorOnAbsentInstTerm" value="true"/>
+<preference name="nlFilterInstParamsByCDFUse" value="false"/>
+<preference name="nlHSPICEIgnoreLeavesInAutoSetXPrefix" value="false"/>
+<preference name="nlHSPICEIncludeHSPICENetlistFile" value="false"/>
+<preference name="nlIgnoreCDFModuleName" value="false"/>
+<preference name="nlIgnoreParasiticDevices" value="false"/>
+<preference name="nlLibrariesIgnoringEvalErrors" value="sheets"/>
+<preference name="nlMapParameterCase" value="false"/>
+<preference name="nlMaximumPartialEvaluation" value="false"/>
+<preference name="nlProcessUnconnectedSymbolPinForVirtual" value="false"/>
+<preference name="nlPromoteTerms" value="true"/>
+<preference name="nlPropagateGlobalToTerminalShorts" value="false"/>
+<preference name="nlRevertOutdatedDesigns" value="false"/>
+<preference name="nlShortExprPropNames" value="lxRemoveDevice lvsRemoveDevice"/>
+<preference name="nlSimulatorAliases" value="{hspiceD hspice} {spectre spectre} {auCdl auCdl} {verilog verilog}"/>
+<preference name="nlStopOnConnectivityImplicitChange" value="false"/>
+<preference name="nlTextViewCheckMethod" value="None"/>
+<preference name="nlUseViewInfoTermOrder" value="true"/>
+<preference name="nlVirtualTerminalsFormat" value="%PREFIX_%NAME_%DEFAULT"/>
+<preference name="nlVirtualTerminalsPrefix" value="vt"/>
+<preference name="xtCDLGlobalSearchList" value="auCdl schematic"/>
+<preference name="xtCDLGlobalStopList" value="auCdl"/>
+</preferences>

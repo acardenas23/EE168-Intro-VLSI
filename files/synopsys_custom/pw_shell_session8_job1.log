@@ -1,0 +1,84 @@
+[21:11:24.73] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[21:11:29.83] /o pw_shell Version PrimeWave Design Envrionment S-2021.09-SP1-1
+              /c Build  (OPT) compiled on Tue Jan 11 10:36:48 2022 for CentOS64 7.3
+              /c Execution time: Sat Feb  5 21:11:09 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2022 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[21:11:29.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[21:11:29.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[21:11:29.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[21:11:29.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[21:11:29.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[21:11:29.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[21:11:29.84] /o /usr/local/synopsys/pdk/SAED_PDK90nm/SAED_PDK_90
+[21:11:29.84] /o 	############################################
+[21:11:29.84] /o 	--------------------------------------------
+[21:11:29.84] /o 	PDK Name................... : SAED_PDK_90
+[21:11:29.84] /o 	PDK Release Date........... : 29-Sep-2015
+[21:11:29.84] /o 	PDK Custom Designer Version : J-2014.12-2
+[21:11:29.84] /o 	--------------------------------------------
+[21:11:29.84] /o 	############################################
+[21:11:29.84] /o 
+[21:11:29.84] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[21:11:29.84] /o SAED PDK 90: Loaded callbacks
+[21:11:29.85] /o SAED PDK 90: Loaded display resources
+[21:11:29.86] /i ::sa::_backgroundSaeShell::signalProcessReady 1644124268
+[21:11:29.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 21
+[21:11:29.86] /i ::wf::updateViewerLicense 3
+[21:11:29.86] /i ::wf::updateViewerLicense 3
+[21:16:29.71] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[21:16:30.87] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:16:30.91] /i ::sa::_backgroundSaeShell::parentRunning
+[21:16:30.91] /o 1644124590
+[21:21:31.89] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:21:31.91] /i ::sa::_backgroundSaeShell::parentRunning
+[21:21:31.91] /o 1644124891
+[21:26:32.91] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:26:33.11] /i ::sa::_backgroundSaeShell::parentRunning
+[21:26:33.11] /o 1644125193
+[21:31:33.93] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:31:34.11] /i ::sa::_backgroundSaeShell::parentRunning
+[21:31:34.11] /o 1644125494
+[21:36:34.95] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:36:35.11] /i ::sa::_backgroundSaeShell::parentRunning
+[21:36:35.11] /o 1644125795
+[21:41:35.97] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:41:36.11] /i ::sa::_backgroundSaeShell::parentRunning
+[21:41:36.11] /o 1644126096
+[21:46:36.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:46:37.11] /i ::sa::_backgroundSaeShell::parentRunning
+[21:46:37.11] /o 1644126397
+[21:51:38.01] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:51:38.21] /i ::sa::_backgroundSaeShell::parentRunning
+[21:51:38.21] /o 1644126698
+[21:56:39.01] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:56:39.21] /i ::sa::_backgroundSaeShell::parentRunning
+[21:56:39.21] /o 1644126999
+[22:01:40.03] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:01:40.21] /i ::sa::_backgroundSaeShell::parentRunning
+[22:01:40.21] /o 1644127300
+[22:06:41.05] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:06:41.21] /i ::sa::_backgroundSaeShell::parentRunning
+[22:06:41.21] /o 1644127601
+[22:11:42.07] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:11:42.11] /i ::sa::_backgroundSaeShell::parentRunning
+[22:11:42.11] /o 1644127902
+[22:16:43.09] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:16:43.21] /i ::sa::_backgroundSaeShell::parentRunning
+[22:16:43.21] /o 1644128203
+[22:21:44.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:21:44.31] /i ::sa::_backgroundSaeShell::parentRunning
+[22:21:44.31] /o 1644128504
+[22:26:45.13] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:26:45.21] /i ::sa::_backgroundSaeShell::parentRunning
+[22:26:45.21] /o 1644128805
+[22:31:46.15] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:31:46.31] /i ::sa::_backgroundSaeShell::parentRunning
+[22:31:46.31] /o 1644129106
+[22:35:17.25] /i ::sa::_backgroundSaeShell::exit
+[22:35:17.25] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[22:35:17.53] /m Information: License 'Apex' checked in. (LICENSE-004)

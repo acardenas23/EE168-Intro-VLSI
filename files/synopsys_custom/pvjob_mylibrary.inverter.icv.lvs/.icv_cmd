@@ -1,0 +1,8 @@
+openaccess mylibrary layout inverter inverter icv SPICE SPICE /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map /usr/local/synopsys/pdk/SAED_PDK90nm/icv/lvs/rules.lvs.9m_saed90_lvs.rs /home/eemaj/acardenasbeltra/lib.defs /home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.lvs.custom_compiler.rc -vue -stc -sf -sf -rc -quiet=0 -oa_view -oa_lib_defs -oa_layer_map -i -f -c 
+schematic=/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.icv.sp
+ICV_HOME_DIR=/usr/local/synopsys/icvalidator/O-2018.12-SP2-9
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp /home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.icv.sp -globalNets VDD VDD12 VDD22 -mprop -cell inverter -dupCell USE_MULTIPLE -sp-ndbConnect -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22  -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log  -outName /.netlist_database_sch100 -outType ndb -ndb-noOrgname -ndb-micron
+inverter
+/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/run_details
+Complete

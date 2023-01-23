@@ -1,0 +1,6 @@
+WARNING: Expanded '136956165' hierarchical cells. (SX-2291)
+  
+InitDB        Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=425.1 
+HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=441.1 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=441.1 

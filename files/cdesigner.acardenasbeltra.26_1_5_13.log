@@ -1,0 +1,21 @@
+[05:13:23.92] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 26 05:13:15 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[05:13:25.23] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[05:13:25.23] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[05:13:25.23] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[05:13:25.23] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[05:13:27.76] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+299
+[05:13:31.89] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[05:13:32.38] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[05:13:32.44] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+445+191
+[05:13:34.14] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[05:13:34.54] /o Shutdown time: Wed Jan 26 05:13:34 2022
+[05:13:34.54] /o Elapsed session real time: 0.16 minutes
+[05:13:34.54] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/cdesigner.log

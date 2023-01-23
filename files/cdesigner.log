@@ -1,0 +1,57 @@
+[12:11:01.03] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 26 12:10:52 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[12:11:02.58] /m Information: ::xt::physicalVerification::_private::processValidationProc: Invalid process 'SAED 90nm'.
+[12:11:02.58] /m Information: ::xt::physicalVerification::_private::variantValidationProc: Invalid process ''.
+[12:11:02.62] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[12:11:02.62] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[12:11:02.62] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[12:11:02.62] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[12:11:05.92] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+299
+[12:11:35.34] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[12:11:35.34] /i dm::showLibraryManager
+[12:11:35.38] /r giWindowId 1
+[12:11:35.38] /r giWindowGeometry 660x600+50+50
+[12:11:35.82] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[12:11:35.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[12:11:35.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[12:11:35.83] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[12:11:35.83] /o oa:0x225497a0
+[12:11:37.91] /i db::setAttr geometry -of [gi::getFrames 1] -value 1280x657+0+23
+[12:11:39.68] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 1]
+[12:11:39.74] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[12:11:41.45] /i gi::setCurrentIndex {cells} -index {NAND} -in [gi::getWindows 1]
+[12:11:41.59] /i gi::setItemSelection {cells} -index {NAND} -in [gi::getWindows 1]
+[12:11:44.30] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 1]
+[12:11:44.35] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[12:11:45.32] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 1]
+[12:11:45.37] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 1]
+[12:11:45.57] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[12:11:45.67] /m Information: License 'Layout Editor' checked out. (LICENSE-003)
+[12:11:45.69] /o 	############################################
+[12:11:45.69] /o 	--------------------------------------------
+[12:11:45.69] /o 	PDK Name................... : SAED_PDK_90
+[12:11:45.69] /o 	PDK Release Date........... : 29-Sep-2015
+[12:11:45.70] /o 	PDK Custom Designer Version : J-2014.12-2
+[12:11:45.70] /o 	--------------------------------------------
+[12:11:45.70] /o 	############################################
+[12:11:45.70] /o 
+[12:11:45.70] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[12:11:45.70] /o SAED PDK 90: Loaded callbacks
+[12:11:45.70] /o SAED PDK 90: Loaded display resources
+[12:11:45.77] /r giWindowId 2
+[12:11:45.77] /r giWindowGeometry 1088x612
+[12:11:50.69] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]] -value 190x462
+[12:11:52.90] /i db::setAttr geometry -of [gi::getFrames 2] -value 1088x612+8+31
+[12:11:56.37] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]] -value 190x507
+[12:11:56.46] /i db::setAttr geometry -of [gi::getFrames 2] -value 1280x657+0+23
+[12:13:34.94] /i gi::setActiveWindow 1
+[12:13:34.98] /i gi::setActiveWindow 1 -raise true
+[12:13:35.11] /i db::setAttr iconified -of [gi::getFrames 2] -value true
+[12:13:35.54] /i db::setAttr geometry -of [gi::getFrames 2] -value 1280x657+0+0

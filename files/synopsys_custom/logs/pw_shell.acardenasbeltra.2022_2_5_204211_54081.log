@@ -1,0 +1,42 @@
+[20:42:26.14] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[20:42:31.17] /o pw_shell Version PrimeWave Design Envrionment S-2021.09-SP1-1
+              /c Build  (OPT) compiled on Tue Jan 11 10:36:48 2022 for CentOS64 7.3
+              /c Execution time: Sat Feb  5 20:42:11 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2022 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[20:42:31.17] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[20:42:31.17] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[20:42:31.17] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[20:42:31.17] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[20:42:31.17] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[20:42:31.17] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[20:42:31.20] /o /usr/local/synopsys/pdk/SAED_PDK90nm/SAED_PDK_90
+[20:42:31.20] /o 	############################################
+[20:42:31.20] /o 	--------------------------------------------
+[20:42:31.20] /o 	PDK Name................... : SAED_PDK_90
+[20:42:31.20] /o 	PDK Release Date........... : 29-Sep-2015
+[20:42:31.20] /o 	PDK Custom Designer Version : J-2014.12-2
+[20:42:31.20] /o 	--------------------------------------------
+[20:42:31.20] /o 	############################################
+[20:42:31.20] /o 
+[20:42:31.20] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:42:31.21] /o SAED PDK 90: Loaded callbacks
+[20:42:31.21] /o SAED PDK 90: Loaded display resources
+[20:42:31.22] /i ::sa::_backgroundSaeShell::signalProcessReady 1644122531
+[20:42:31.23] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 20
+[20:42:31.23] /i ::wf::updateViewerLicense 3
+[20:42:31.23] /i ::wf::updateViewerLicense 3
+[20:47:31.71] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[20:47:32.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:47:32.41] /i ::sa::_backgroundSaeShell::parentRunning
+[20:47:32.41] /o 1644122852
+[20:52:33.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:52:33.41] /i ::sa::_backgroundSaeShell::parentRunning
+[20:52:33.41] /o 1644123153
+[20:56:21.83] /i ::sa::_backgroundSaeShell::exit
+[20:56:21.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[20:56:22.17] /m Information: License 'Apex' checked in. (LICENSE-004)

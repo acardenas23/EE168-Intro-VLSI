@@ -1,0 +1,55 @@
+{
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 4523,
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "H0Y6L_d": {
+            "mod": "timeunit",
+            "out": "H0Y6L_d.o",
+            "archive": "archive.0/_42195_archive_1.a",
+            "bytes": 4567,
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "uuCq7_d": {
+            "mod": "counter_testbench",
+            "out": "uuCq7_d.o",
+            "archive": "archive.0/_42195_archive_1.a",
+            "bytes": 10346,
+            "mode": 4,
+            "checksum": 4294967295
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "counter_testbench": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "timeunit": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_42195_archive_1.a",
+            "objects": [
+                [
+                    "H0Y6L_d.o",
+                    4567
+                ],
+                [
+                    "uuCq7_d.o",
+                    10346
+                ]
+            ],
+            "size": 14913
+        }
+    ]
+}

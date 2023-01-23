@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Feb  6 13:17:34 2022-->
+<file-format name="stateCategory" version="1.0">
+ <collection name="analyses">
+  <object name="analyses" type="saAnalysis" version="1">
+   <attribute name="advanced" type="giBoolean" value="0"/>
+   <attribute name="card" type="giString" value=""/>
+   <attribute name="definition" type="giString" value="tran"/>
+   <attribute name="description" type="giString" value=""/>
+   <attribute name="doRestore" type="giBoolean" value="0"/>
+   <attribute name="doSave" type="giBoolean" value="0"/>
+   <attribute name="enabled" type="giBoolean" value="1"/>
+   <attribute name="method" type="giString" value="Temp Sweep"/>
+   <attribute name="name" type="giString" value="tran"/>
+   <attribute name="numIntervals" type="giString" value="1"/>
+   <collection name="options"/>
+   <attribute name="otherOptions" type="giString" value=""/>
+   <attribute name="restorePoint" type="giString" value=""/>
+   <attribute name="runLevels" type="giString" value=""/>
+   <attribute name="saveList" type="giString" value=""/>
+   <attribute name="start" type="giString" value="0"/>
+   <attribute name="step" type="giString" value="10p"/>
+   <attribute name="step2" type="giString" value=""/>
+   <attribute name="step3" type="giString" value=""/>
+   <attribute name="step4" type="giString" value=""/>
+   <attribute name="step5" type="giString" value=""/>
+   <attribute name="stop" type="giString" value="100n"/>
+   <attribute name="stop2" type="giString" value=""/>
+   <attribute name="stop3" type="giString" value=""/>
+   <attribute name="stop4" type="giString" value=""/>
+   <attribute name="stop5" type="giString" value=""/>
+   <attribute name="tempStep" type="giString" value=""/>
+   <attribute name="tempValues" type="giString" value=""/>
+   <attribute name="uic" type="giBoolean" value="0"/>
+   <attribute name="useCard" type="giBoolean" value="0"/>
+  </object>
+  <object name="analyses" type="saAnalysis" version="1">
+   <attribute name="card" type="giString" value=""/>
+   <attribute name="dataDrivenRows" type="giString" value=""/>
+   <attribute name="dataDrivenVariables" type="giString" value=""/>
+   <attribute name="definition" type="giString" value="dc"/>
+   <attribute name="description" type="giString" value=""/>
+   <attribute name="designVar" type="giString" value="/V2"/>
+   <attribute name="enabled" type="giBoolean" value="1"/>
+   <attribute name="hysteresis" type="giBoolean" value="0"/>
+   <attribute name="name" type="giString" value="dc"/>
+   <attribute name="numPoints" type="giString" value=""/>
+   <collection name="options"/>
+   <attribute name="poi" type="giString" value=""/>
+   <attribute name="source" type="giString" value=""/>
+   <attribute name="start" type="giString" value="0"/>
+   <attribute name="stepSize" type="giString" value="0.01"/>
+   <attribute name="stop" type="giString" value="1.2"/>
+   <attribute name="sweep" type="giString" value="Design Variable"/>
+   <attribute name="sweepType" type="giString" value="Linear Steps"/>
+   <attribute name="useCard" type="giBoolean" value="0"/>
+  </object>
+ </collection>
+</file-format>

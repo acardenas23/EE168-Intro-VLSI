@@ -1,0 +1,2 @@
+#!/bin/sh
+unset TCL_LIBRARY;  cd /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc; icv -f openaccess -i mylibrary -c NAND -oa_view layout -oa_lib_defs /home/eemaj/acardenasbeltra/lib.defs -oa_layer_map /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc/NAND.drc.cdesigner.rc -vue /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc/rules.drc.9m_saed90_icv.drc.rs > /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc/stdout.drc.log 2>&1

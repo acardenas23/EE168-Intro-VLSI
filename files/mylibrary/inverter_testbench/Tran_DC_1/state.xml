@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Feb  5 20:53:31 2022-->
+<file-format name="stateData" version="1.0">
+ <attribute name="description" type="giString" value=""/>
+ <attribute name="design" type="dmCellView" value="mylibrary/inverter_testbench/config"/>
+ <attribute name="enabled" type="giBoolean" value="1"/>
+ <attribute name="enabledJobClass" type="giBoolean" value="0"/>
+ <attribute name="migratedSimulator" type="giString" value=""/>
+ <attribute name="name" type="giString" value="Tran_DC_1"/>
+ <attribute name="openaccessState" type="dmCellView" value="//"/>
+ <attribute name="simulator" type="giString" value="PrimeSim"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <integration version="1"/>
+</file-format>

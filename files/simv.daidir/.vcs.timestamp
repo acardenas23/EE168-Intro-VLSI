@@ -1,0 +1,80 @@
+0 
+22
++v2k
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/usr/local/synopsys/vcs/K-2015.09-SP1-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/libvirsim.so /usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/liberrorinf.so /usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/usr/local/synopsys/vcs/K-2015.09-SP1-1/include
+-gen_obj
+-picarchive
+/usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/bin/vcs1
+counter.v
+counter_tb.v
+45
+sysc_uni_pwd=/home/eemaj/acardenasbeltra/ee168/lab4-rtl
+XDG_SESSION_ID=9306
+XDG_RUNTIME_DIR=/run/user/20284
+XDG_DATA_DIRS=/home/eemaj/acardenasbeltra/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=32
+VCS_HOME=/usr/local/synopsys/vcs/K-2015.09-SP1-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/usr/local/synopsys/vcs/K-2015.09-SP1-1/linux
+SYNOPSYS_SYSTYPE=LINUX64_L26el
+SYNOPSYS=/usr/local/synopsys
+SSH_TTY=/dev/pts/93
+SSH_CONNECTION=2600:6c51:4d00:1648:cd5d:1cad:8347:d341 50793 2607:f290:f:416:169:235:16:45 22
+SSH_CLIENT=2600:6c51:4d00:1648:cd5d:1cad:8347:d341 50793 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=27000@synopsys.engr.ucr.edu
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SAED90_PDK=/usr/local/synopsys/pdk/SAED_PDK90nm
+SAED32_28_PDK=/usr/local/synopsys/pdk/SAED3228nm_iPDK
+QT_GRAPHICSSYSTEM_CHECKED=1
+OVA_UUM=0
+OA_UNSUPPORTED_PLAT=linux_rhel40_gcc44x
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MLM_LICENSE_FILE=27000@matlab.engr.ucr.edu
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=FILE:/tmp/krb5cc_20284_n92Txn
+ICV_HOME_DIR=/usr/local/synopsys/icvalidator/O-2018.12-SP2-9
+HISTCONTROL=ignoredups
+CDS_LIC_FILE=5280@cadence.engr.ucr.edu
+CDS_INST=/usr/local/cadence
+CDS_IC=/usr/local/cadence/IC617
+CDS_AUTO_64BIT=ALL
+CDS_AUTO_32BIT=NONE
+CAFFE_ROOT=/usr/local/caffe
+CAD_HOME=/usr/local/cadence
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+ASSURAHOME=/usr/local/cadence/ASSURA41
+0
+2
+1646203205 counter.v
+1646203207 counter_tb.v
+4
+0 
+1453441685 /usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/libvirsim.so
+1453441484 /usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/liberrorinf.so
+1453441466 /usr/local/synopsys/vcs/K-2015.09-SP1-1/linux/lib/libsnpsmalloc.so
+1646203214 simv.daidir

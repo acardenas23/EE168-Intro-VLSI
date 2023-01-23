@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep bender.engr.ucr.edu > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 156320 
+else 
+rsh bender.engr.ucr.edu kill 156320 
+ sleep 10 
+rsh bender.engr.ucr.edu kill -9 156320 
+fi

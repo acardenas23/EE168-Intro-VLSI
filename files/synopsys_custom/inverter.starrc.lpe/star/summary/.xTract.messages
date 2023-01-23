@@ -1,0 +1,39 @@
+Parsing option_file: xtract.tech (EX-304)
+Running Amd_64b    
+Initializing extraction ... (EX-724)
+Reading binary grd file /usr/local/synopsys/pdk/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd ... (EX-135)
+----- R mode: reuse cap  environments -----
+----- Importing design ----- 
+Ary stats nx=4 ny=3 dx=12151 dy=18101 nentry=81  max/cell=21 av/cell=6.75
+ Ary stats nx=2 ny=1 dx=24301 dy=54301 nentry=0  max/cell=0 av/cell=0
+ DB Partition id = 0
+DB num polygons = 39
+DB num fill polygons = 0
+DB num skip c polygons = 20
+DB num vias = 0
+Import design time is 0 seconds.
+----- Initializing models ----- 
+Initialize models time is 0 seconds.
+----- Extracting 3 nets ----- 
+Completed  16%  Time=00:00:00  RemainingTime=00:00:00  Mem=272.395
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=272.605
+ Processing non-critical polygons ... 
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=272.605
+Extraction time is 0 seconds.
+----- Reducing 3 nets ----- 
+----- Floating fill reduction ----- 
+Floating fill reduction time is 0 seconds.Mem=272.605
+Reduction time is 0 seconds.
+Total capacitance environments constructed = 138
+Unique capacitance environments constructed = 119 (86.2319%)
+Total resistance environments constructed = 0
+Unique resistance environments constructed = 0
+Extracted 8 capacitors, 24 resistors, 28 nodes
+Reduced to 12 nodes,  (57.1429%)
+Reduced to 9 resistors,  (62.5%)
+Increased the number of caps to 13 capacitors,  (keep nodes on a skip polygons?)
+INTERNAL Warning: There are still 4 branches in memory  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.1    Mem=272.6 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.1    Mem=272.6 
+

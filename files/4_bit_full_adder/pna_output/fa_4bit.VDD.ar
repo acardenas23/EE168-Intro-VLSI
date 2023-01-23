@@ -1,0 +1,13 @@
+define cid (geGetEditCell)
+defineCellInstancePower cid "U3" 133333333333.333344 
+defineCellInstancePower cid "U4" 133333333333.333344 
+defineCellInstancePower cid "U5" 133333333333.333344 
+defineCellInstancePower cid "U6" 133333333333.333344 
+defineCellInstancePower cid "U7" 72222222222.222229 
+defineCellInstancePower cid "U8" 44444444444.444435 
+defineCellInstancePower cid "U9" 72222222222.222229 
+defineCellInstancePower cid "U10" 44444444444.444435 
+defineCellInstancePower cid "U11" 72222222222.222229 
+defineCellInstancePower cid "U12" 44444444444.444435 
+defineCellInstancePower cid "U13" 72222222222.222229 
+defineCellInstancePower cid "U14" 44444444444.444435 

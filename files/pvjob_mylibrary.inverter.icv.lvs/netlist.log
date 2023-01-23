@@ -1,0 +1,5 @@
+[11:21:18.87] /m Information: "Starting netlisting for design "mylibrary/inverter/schematic"..."
+               (NETLISTING-010)
+[11:21:19.09] /o No Design Integrity rule violations found in "mylibrary/inverter/schematic"
+[11:21:19.14] /m Information: "Netlisting design "mylibrary/inverter/schematic" finished
+               successfully." (NETLISTING-012)

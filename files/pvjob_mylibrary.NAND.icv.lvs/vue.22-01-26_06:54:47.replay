@@ -1,0 +1,22 @@
+# Wed Jan 26 06:54:47 2022
+
+# icv_vue: RHEL64 O-2018.12-SP2-9.5147677 2019/11/08
+
+# Hostname     : bender.engr.ucr.edu
+# Platform type: LINUX.64
+
+# Called as: 
+# /usr/local/synopsys/icvalidator/O-2018.12-SP2-9/bin/LINUX64_L26el/icv_vue.bin -lay CDesignerLE -sch CDesignerSE -load /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.vue -cmdPrint 
+
+vue_loadFile {HiLoadPage} {/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.vue}
+vue_select {mainTab} {LVS Errors}
+vue_select {lvsEquivListView} {0:0}
+vue_select {lvsEquivListView} {2}
+vue_select {lvsEquivListView} {0:0}
+vue_expand {lvsEquivListView} 1 {0:0}
+vue_select {lvsEquivListView} {0:0:0}
+vue_expand {lvsEquivListView} 1 {0:0:0}
+vue_select {lvsEquivListView} {0:0:0:0}
+vue_select {lvsEquivListView} {0:0:0:1}
+vue_select {lvsEquivListView} {0:0:0:0}
+vue_close {HiMain}

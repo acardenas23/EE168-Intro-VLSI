@@ -1,0 +1,10 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/./TOPCELLNAME_err | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/inverter.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/run_details/duse_master.tmp && \
+mv /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/run_details/duse_master.tmp /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/run_details/duse_master

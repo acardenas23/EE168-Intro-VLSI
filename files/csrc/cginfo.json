@@ -1,0 +1,94 @@
+{
+    "NameTable": {
+        "counter_testbench": [
+            "counter_testbench",
+            "uuCq7",
+            "module"
+        ],
+        "timeunit": [
+            "timeunit",
+            "H0Y6L",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.25360.json"
+    ],
+    "CompileStrategy": "fullobj",
+    "CurCompileModules": [
+        "...MASTER...",
+        "timeunit",
+        "counter_testbench"
+    ],
+    "CompileStatus": "Successful",
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_nivcsw": 31,
+            "ru_utime_sec": 0.040676999999999998,
+            "ru_nvcsw": 153,
+            "ru_minflt": 10269,
+            "ru_stime_sec": 0.029491,
+            "ru_maxrss_kb": 43104,
+            "ru_majflt": 0
+        },
+        "outputSizePerQuad": 225.0,
+        "mop/quad": 1.7004219409282701,
+        "ru_self_end": {
+            "ru_nivcsw": 39,
+            "ru_utime_sec": 0.053564000000000001,
+            "ru_nvcsw": 230,
+            "ru_minflt": 12141,
+            "ru_stime_sec": 0.038404000000000001,
+            "ru_maxrss_kb": 48856,
+            "ru_majflt": 0
+        },
+        "ru_childs_cgstart": {
+            "ru_nivcsw": 0,
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_majflt": 0
+        },
+        "Frontend(%)": 75.940930475692625,
+        "nMops": 403,
+        "mopSpeed": 31271.824319081239,
+        "nQuads": 237,
+        "totalObjSize": 53478,
+        "ru_childs_end": {
+            "ru_nivcsw": 0,
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_majflt": 0
+        },
+        "CodeGen(%)": 24.059069524307375,
+        "quadSpeed": 18390.626212462168
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 34042
+    },
+    "Misc": {
+        "daidir_abs": "/home/eemaj/acardenasbeltra/ee168/lab4-rtl/simv.daidir",
+        "cwd": "/home/eemaj/acardenasbeltra/ee168/lab4-rtl",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/home/eemaj/acardenasbeltra/ee168/lab4-rtl/csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.0"
+    }
+}

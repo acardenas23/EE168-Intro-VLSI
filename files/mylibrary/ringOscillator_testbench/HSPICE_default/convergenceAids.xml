@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Feb  6 17:24:32 2022-->
+<file-format name="stateCategory" version="1.0">
+ <collection name="convergenceAids">
+  <object type="saConvergenceAid" name="convergenceAids" version="1">
+   <attribute type="giBoolean" name="enabled" value="1"/>
+   <attribute type="giString" name="node" value="/VIO1"/>
+   <attribute type="giString" name="nodeType" value="Initial Condition"/>
+   <attribute type="giString" name="voltage" value="0"/>
+  </object>
+  <object type="saConvergenceAid" name="convergenceAids" version="1">
+   <attribute type="giBoolean" name="enabled" value="1"/>
+   <attribute type="giString" name="node" value="/VIO2"/>
+   <attribute type="giString" name="nodeType" value="Initial Condition"/>
+   <attribute type="giString" name="voltage" value="1.2"/>
+  </object>
+  <object type="saConvergenceAid" name="convergenceAids" version="1">
+   <attribute type="giBoolean" name="enabled" value="1"/>
+   <attribute type="giString" name="node" value="/VIO3"/>
+   <attribute type="giString" name="nodeType" value="Initial Condition"/>
+   <attribute type="giString" name="voltage" value="0"/>
+  </object>
+  <object type="saConvergenceAid" name="convergenceAids" version="1">
+   <attribute type="giBoolean" name="enabled" value="1"/>
+   <attribute type="giString" name="node" value="/VIO4"/>
+   <attribute type="giString" name="nodeType" value="Initial Condition"/>
+   <attribute type="giString" name="voltage" value="1.2"/>
+  </object>
+  <object type="saConvergenceAid" name="convergenceAids" version="1">
+   <attribute type="giBoolean" name="enabled" value="1"/>
+   <attribute type="giString" name="node" value="/VIO5"/>
+   <attribute type="giString" name="nodeType" value="Initial Condition"/>
+   <attribute type="giString" name="voltage" value="0"/>
+  </object>
+ </collection>
+</file-format>

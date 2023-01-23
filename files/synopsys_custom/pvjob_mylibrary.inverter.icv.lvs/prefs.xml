@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-SP1-1-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+	<pref name="xtLVSICVOptions" value="-sf SPICE -quiet=0"/>
+	<pref name="xtLVSLayCell" value="inverter"/>
+	<pref name="xtLVSLayInputNetlist" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.net"/>
+	<pref name="xtLVSLayLCV" value="mylibrary/inverter/layout"/>
+	<pref name="xtLVSLayOasisFile" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.custom_compiler.oas"/>
+	<pref name="xtLVSLayStreamFile" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.custom_compiler.gds"/>
+	<pref name="xtLVSSchCell" value="inverter"/>
+	<pref name="xtLVSSchInputNetlist" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.icv.sp"/>
+	<pref name="xtLVSSchLCV" value="mylibrary/inverter/schematic"/>
+	<pref name="xtLVSSchOutputNetlist" value="/home/eemaj/acardenasbeltra/ee168/synopsys_custom/pvjob_mylibrary.inverter.icv.lvs/inverter.icv.sp"/>
+	<pref name="xtLVSTool" value="IC Validator"/>
+</preferences>
+

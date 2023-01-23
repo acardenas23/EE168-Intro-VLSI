@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Feb  5 21:04:04 2022-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module viewSearchList="auCdl schematic symbol" timestamp="43" isSubcircuit="1" viewStopList="auCdl" contextID="switched: SAED_PDK_90 pmos4t auCdl vl: auCdl schematic symbol sl: auCdl">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="25"/>
+<lib_parameters timestamp="3"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="21"/>
+<PortOrder><![CDATA[DGSB]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

@@ -1,0 +1,4 @@
+openaccess mylibrary layout icv NAND /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map /home/eemaj/acardenasbeltra/lib.defs /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc/rules.drc.9m_saed90_icv.drc.rs /home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.drc/NAND.drc.cdesigner.rc -vue -rc -oa_view -oa_lib_defs -oa_layer_map -i -f -c 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/usr/local/synopsys/icvalidator/O-2018.12-SP2-9
+ICV_INCLUDES=UNSET

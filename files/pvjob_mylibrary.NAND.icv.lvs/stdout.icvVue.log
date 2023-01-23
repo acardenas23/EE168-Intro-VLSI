@@ -1,0 +1,186 @@
+DEBUG: ConnectToServer: bender.engr.ucr.edu 33885
+DEBUG: connect back to cdesigner: 'bender.engr.ucr.edu:33885'
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L CDESIGNER::StartFilter LAY
+L set topLayLCV  ""
+  + INFO: Tcl-DP service had been loaded.
+L set curLayLCV  ""
+
+< LAYOUT: start_filter >
+L CDESIGNER::SendCommand setWorkingDir "[pwd]"
+DEBUG: ConnectToServer: bender.engr.ucr.edu 33885
+DEBUG: return previous client bender.engr.ucr.edu:33885
+
+< SCHEMATIC: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+S CDESIGNER::StartFilter SCH
+S set curModule ""
+
+< SCHEMATIC: start_filter >
+S CDESIGNER::SendCommand setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L set topLayLCV "mylibrary/NAND/layout"
+L set curLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand setWorkingDir "/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs"
+
+< SCHEMATIC: load_hercules >
+S set curModule "NAND"
+L CDESIGNER::SendCommand setTopLayLCV "$topLayLCV"
+S CDESIGNER::SendCommand setWorkingDir "/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs"
+DEBUG: PopFrontXprobeMessage{} : // //
+S CDESIGNER::SendCommand openModule "$curModule"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.001
+}
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.00625
+}
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+DEBUG: PopFrontXprobeMessage{} : /vueSetDbu 0.001
+/ /{vueSetDbu 0.00625
+}/
+DEBUG: PopFrontXprobeMessage{} : /vueSetDbu 0.00625
+/ //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+DEBUG: PopFrontXprobeMessage{} : // //
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"

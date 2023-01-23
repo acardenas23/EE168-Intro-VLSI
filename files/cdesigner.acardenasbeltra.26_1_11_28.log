@@ -1,0 +1,91 @@
+[11:27:39.24] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 26 11:27:31 2022
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[11:27:40.54] /m Information: ::xt::physicalVerification::_private::processValidationProc: Invalid process 'SAED 90nm'.
+[11:27:40.54] /m Information: ::xt::physicalVerification::_private::variantValidationProc: Invalid process ''.
+[11:27:40.57] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[11:27:40.58] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[11:27:40.58] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[11:27:40.58] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[11:27:43.41] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+299
+[11:27:48.96] /i db::setAttr geometry -of [gi::getFrames 0] -value 1280x657+0+23
+[11:27:50.98] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+299
+[11:27:53.19] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[11:27:53.19] /i dm::showLibraryManager
+[11:27:53.23] /r giWindowId 1
+[11:27:53.23] /r giWindowGeometry 660x600+50+50
+[11:27:53.61] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '2' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[11:27:53.62] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '2' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' (DATA_MANAGEMENT-014)
+[11:27:53.62] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: In file '/home/eemaj/acardenasbeltra/lib.defs': Error at line '3' : Multiple definitions for the library with the name of 'mylibrary' (DATA_MANAGEMENT-014)
+[11:27:53.62] /w Warning: In file /home/eemaj/acardenasbeltra/lib.defs: Identical path definitions for 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '3' and 'mylibrary' in '/home/eemaj/acardenasbeltra/lib.defs' line '4' (DATA_MANAGEMENT-014)
+[11:27:53.62] /o oa:0x2328c940
+[11:27:55.81] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 1]
+[11:27:55.88] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[11:27:57.62] /i gi::setCurrentIndex {cells} -index {NAND_testbench} -in [gi::getWindows 1]
+[11:27:57.68] /i gi::setItemSelection {cells} -index {NAND_testbench} -in [gi::getWindows 1]
+[11:28:03.83] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 1]
+[11:28:03.88] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[11:28:04.07] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[11:28:04.14] /o 	############################################
+[11:28:04.14] /o 	--------------------------------------------
+[11:28:04.14] /o 	PDK Name................... : SAED_PDK_90
+[11:28:04.14] /o 	PDK Release Date........... : 29-Sep-2015
+[11:28:04.14] /o 	PDK Custom Designer Version : J-2014.12-2
+[11:28:04.14] /o 	--------------------------------------------
+[11:28:04.14] /o 	############################################
+[11:28:04.14] /o 
+[11:28:04.14] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[11:28:04.15] /o SAED PDK 90: Loaded callbacks
+[11:28:04.15] /o SAED PDK 90: Loaded display resources
+[11:28:04.21] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[11:28:04.30] /r giWindowId 2
+[11:28:04.30] /r giWindowGeometry 1088x612
+[11:28:09.02] /i db::setAttr iconified -of [gi::getFrames 2] -value true
+[11:28:09.78] /i gi::setActiveWindow 1
+[11:28:09.83] /i gi::setActiveWindow 1 -raise true
+[11:28:10.46] /i gi::setCurrentIndex {views} -index {Tran_NAND_SAE} -in [gi::getWindows 1]
+[11:28:10.50] /i gi::setItemSelection {views} -index {Tran_NAND_SAE} -in [gi::getWindows 1]
+[11:28:10.61] /i db::setAttr geometry -of [gi::getFrames 2] -value 1088x612+0+0
+[11:28:10.74] /i gi::executeAction dmOpen -in [gi::getWindows 1]
+[11:28:10.84] /m Information: License 'Simulation & Analysis Environment' checked out. (LICENSE-003)
+[11:28:10.92] /r giWindowId 3
+[11:28:10.93] /r giWindowGeometry 600x500
+[11:28:12.51] /i db::setAttr geometry -of [gi::getFrames 3] -value 600x500+112+135
+[11:28:14.58] /i gi::setActiveWindow 1
+[11:28:14.63] /i gi::setActiveWindow 1 -raise true
+[11:28:14.68] /i gi::setActiveWindow 3
+[11:28:14.72] /i gi::setActiveWindow 3 -raise true
+[11:28:14.83] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[11:28:15.30] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+0+0
+[11:28:16.91] /i db::setAttr iconified -of [gi::getFrames 2] -value false
+[11:28:16.98] /i db::setAttr geometry -of [gi::getFrames 2] -value 1088x612+8+31
+[11:28:17.02] /i gi::setActiveWindow 2
+[11:28:17.07] /i gi::setActiveWindow 2 -raise true
+[11:28:18.68] /i db::setAttr geometry -of [gi::getFrames 2] -value 1280x657+0+23
+[11:28:22.19] /i gi::setActiveWindow 3
+[11:28:22.24] /i gi::setActiveWindow 3 -raise true
+[11:28:23.25] /i gi::pressButton {plotButton} -in [gi::getWindows 3]
+[11:28:23.35] /m Information: Launching Waveform Viewer "cd /home/eemaj/acardenasbeltra/simulation/mylibrary/NAND_testbench/schematic/HSPICE/nominal/results && wv -k -cdesigner > /home/eemaj/acardenasbeltra/simulation/mylibrary/NAND_testbench/schematic/HSPICE/nominal/results/viewer.log 2>&1"
+[11:28:47.38] /m Information: Waveform Viewer exited normally.
+[11:28:48.12] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[11:28:48.19] /m Information: License 'Simulation & Analysis Environment' checked in. (LICENSE-004)
+[11:28:48.95] /i gi::setActiveWindow 2
+[11:28:48.99] /i gi::setActiveWindow 2 -raise true
+[11:28:49.87] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[11:28:51.96] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[11:28:52.29] /i gi::setActiveWindow 0
+[11:28:52.34] /i gi::setActiveWindow 0 -raise true
+[11:28:54.55] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[11:28:55.03] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[11:28:55.13] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+445+191
+[11:28:56.27] /r giDialog gi::setField {saveState} -value {true} -in [gi::getDialogs {deExitDialog}]
+[11:28:57.12] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[11:28:57.79] /o Shutdown time: Wed Jan 26 11:28:57 2022
+[11:28:57.79] /o Elapsed session real time: 1.3 minutes
+[11:28:57.79] /o Session terminated. Log is at /home/eemaj/acardenasbeltra/ee168/cdesigner.log

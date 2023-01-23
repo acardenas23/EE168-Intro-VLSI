@@ -1,0 +1,106 @@
+$date
+	Wed Mar  2 00:36:46 2022
+$end
+
+$version
+	Synopsys VCS version K-2015.09-SP1-1
+$end
+
+$timescale
+	10ps
+$end
+
+$comment Csum: 1 0cc0406313991505 $end
+
+
+$scope module counter_testbench $end
+$var wire 4 ! out [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var reg 4 $ out [3:0] $end
+$var wire 4 % next [3:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0"
+0#
+bxxxx $
+bxxxx %
+bxxxx !
+$end
+#1000
+1"
+#1100
+1#
+b0000 %
+#2000
+0"
+#3000
+1"
+#3100
+0#
+bxxxx %
+b0000 $
+b0000 !
+b0001 %
+#4000
+0"
+#5000
+1"
+#5100
+b0001 $
+b0001 !
+b0010 %
+#6000
+0"
+#7000
+1"
+#7100
+b0010 $
+b0010 !
+b0011 %
+#8000
+0"
+#9000
+1"
+#9100
+b0011 $
+b0011 !
+b0100 %
+#10000
+0"
+#11000
+1"
+#11100
+b0100 $
+b0100 !
+b0101 %
+#12000
+0"
+#13000
+1"
+#13100
+b0101 $
+b0101 !
+b0110 %
+#14000
+0"
+#15000
+1"
+#15100
+b0110 $
+b0110 !
+b0111 %
+#16000
+0"
+#17000
+1"

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- created by Custom Designer build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="-sf SPICE -quiet=0" name="xtLVSICVOptions"/>
+                <pref value="inverter" name="xtLVSLayCell"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/inverter.net" name="xtLVSLayInputNetlist"/>
+                <pref value="mylibrary/inverter/layout" name="xtLVSLayLCV"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/inverter.cdesigner.gds" name="xtLVSLayStreamFile"/>
+                <pref value="inverter" name="xtLVSSchCell"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/inverter.cdesigner.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="mylibrary/inverter/schematic" name="xtLVSSchLCV"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.inverter.icv.lvs/inverter.cdesigner.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+                <pref value="true" name="xtLVSViewOutput"/>
+        </preferences>
+</file-format>

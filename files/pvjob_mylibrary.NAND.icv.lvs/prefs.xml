@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- created by Custom Designer build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="-sf SPICE -quiet=0" name="xtLVSICVOptions"/>
+                <pref value="NAND" name="xtLVSLayCell"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.net" name="xtLVSLayInputNetlist"/>
+                <pref value="mylibrary/NAND/layout" name="xtLVSLayLCV"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.cdesigner.gds" name="xtLVSLayStreamFile"/>
+                <pref value="NAND" name="xtLVSSchCell"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.cdesigner.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="mylibrary/NAND/schematic" name="xtLVSSchLCV"/>
+                <pref value="/home/eemaj/acardenasbeltra/ee168/pvjob_mylibrary.NAND.icv.lvs/NAND.cdesigner.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+                <pref value="true" name="xtLVSViewOutput"/>
+        </preferences>
+</file-format>
